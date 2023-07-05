@@ -18,7 +18,7 @@ const Employer = () => {
   useEffect(() => {
     setPaginatedData(employerData.slice(0, 20));
     let count = employerData.length / 20;
-    setPageCount(count > 1 ? count - 1 : 1);
+    setPageCount(count > 1 ? count  : 1);
   }, [employerData]);
 
   const changePage = (page) => {
