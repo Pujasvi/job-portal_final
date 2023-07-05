@@ -24,10 +24,16 @@ export const employerSlice = createSlice({
       state.employerError='';
       state.isLoading=true;
     },
-    
+    postJob : (state,action)=>{
+      state.employerData = state.employerData.concat({...action.payload.employerData ,id:state.employerData.length});
+      state.isLoading = false;
+      state.employerError = '';
+      console.log("pujasvi empluterdata",state.employerData)
+    }
+
   },
 });
-export const { success,employerError ,loading } = employerSlice.actions;
+export const { success,employerError ,loading ,postJob } = employerSlice.actions;
 
 
 export default employerSlice.reducer;

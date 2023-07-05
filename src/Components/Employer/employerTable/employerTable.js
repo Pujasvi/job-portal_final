@@ -6,7 +6,7 @@ import {
   useReactTable,
 } from "@tanstack/react-table";
 
-import { styles } from "../employerTable/employerTable.module.css";
+import  styles  from "../employerTable/employerTable.module.css";
 import Pagination from "../../../common/pagination/pagination";
 
 const columnHelper = createColumnHelper();
@@ -24,9 +24,9 @@ const columns = [
     cell: (info) => <i>{info.getValue()}</i>,
     header: () => <span>job_description</span>,
     footer: (info) => info.column.id,
-    size: 250,
-    maxSize: 250,
-    minSize: 250,
+    size: 200,
+    maxSize: 200,
+    minSize: 200,
   }),
   columnHelper.accessor("company_name", {
     header: () => "company_name",
@@ -53,9 +53,9 @@ const columns = [
   columnHelper.accessor("applications", {
     header: "applications",
     footer: (info) => info.column.id,
-    size: 150,
-    maxSize: 150,
-    minSize: 150,
+    size: 75,
+    maxSize: 75,
+    minSize: 75,
   }),
 ];
 
@@ -69,8 +69,8 @@ const EmployerTable = ({ data, currPage, changePage, pageCount }) => {
     <div>
       <table
         style={{
-          width: table.getTotalSize(),
-          marginLeft: 200,
+          width: table.getTotalSize()+300,
+          marginLeft: 100,
         }}
       >
         <thead>
@@ -110,6 +110,7 @@ const EmployerTable = ({ data, currPage, changePage, pageCount }) => {
                   {flexRender(cell.column.columnDef.cell, cell.getContext())}
                 </td>
               ))}
+              <button className={styles.viewApp}>view Applications</button>
             </tr>
           ))}
         </tbody>

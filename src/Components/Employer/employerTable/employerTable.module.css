@@ -33,3 +33,7 @@ tfoot {
 tfoot th {
   font-weight: normal;
 }
+.viewApp{
+  font-size: 9px;
+  border-radius: 0px;
+}
