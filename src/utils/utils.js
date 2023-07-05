@@ -1,4 +1,4 @@
-import { login } from "../Components/Login/loginSlice";
+import { login } from "../components/Login/loginSlice";
 import { users } from "../dummyData/users";
 import { loginApi } from "./networkUtils"
 import { useSelector, useDispatch } from "react-redux";
