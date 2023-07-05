@@ -11,6 +11,7 @@
   border-radius: 4px;
   cursor: pointer;
   padding: 0 8px;
+  background: lightgray;
  
   
 }
@@ -21,4 +22,10 @@
   background-color: var(--primary-color-default);
   color: blue;
   cursor: auto;
+}
+.paginationText{
+  display: flex;
+  align-items: center;
+  width: max-content;
+  margin: 0px 10px;
 }

@@ -3,6 +3,7 @@ import {
   createColumnHelper,
   flexRender,
   getCoreRowModel,
+  getPaginationRowModel,
   useReactTable,
 } from "@tanstack/react-table";
 import Pagination from "../../../common/pagination/pagination";
@@ -57,11 +58,12 @@ const columns = [
   }),
 ];
 
-const DataTable = ({ data, currPage, changePage, pageCount }) => {
+const DataTable = ({ data }) => {
   const table = useReactTable({
     data,
     columns,
     getCoreRowModel: getCoreRowModel(),
+    getPaginationRowModel: getPaginationRowModel(),
   });
   return (
     <div>
@@ -115,9 +117,10 @@ const DataTable = ({ data, currPage, changePage, pageCount }) => {
         <tfoot>
           <div className="pagination-container">
             <Pagination
-              pageCount={pageCount}
-              currPage={currPage}
-              onPageChange={changePage}
+              handlePrevious={() => table.previousPage()}
+              handleNext={() => table.nextPage()}
+              pageCount={table.getPageCount()}
+              currPage={table.getState()?.pagination?.pageIndex + 1}
             />
           </div>
         </tfoot>
