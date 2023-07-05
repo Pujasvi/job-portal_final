@@ -1,0 +1,24 @@
+.pagination {
+  display: flex;
+  margin-left: auto;
+
+}  
+.pageBlock {
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 0 8px;
+ 
+  
+}
+.pageBlock.disabled {
+  cursor: auto;
+}
+.pageBlock.selected {
+  background-color: var(--primary-color-default);
+  color: blue;
+  cursor: auto;
+}
