@@ -42,6 +42,10 @@ export const router = createBrowserRouter([
         path: "/home/post-job",
         element: <><Home/><EmployerForm /></>
       },
+      {
+        path: "/home/",
+        element: <><Home/><Employer /></>
+      },
     ],
   },
   

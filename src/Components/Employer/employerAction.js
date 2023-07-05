@@ -1,7 +1,8 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
-import { employerError, loading, success } from "./employerSlice";
+import { employerError, loading, postJob, success } from "./employerSlice";
 import { checkIsLoggedIn } from "../../utils/commonUtils";
 import { getEmployerDataApi } from "../../utils/networkUtils";
+import { dummyEmployers } from "../../dummyData/employers";
 
 export const getEmployerData = createAsyncThunk(
   "user/getEmployerDataApi",
@@ -19,3 +20,17 @@ export const getEmployerData = createAsyncThunk(
     }
   }
 );
+export const postJobs = createAsyncThunk(
+  "user/postJobsApi",
+  async (data, { dispatch }) => {
+    try {
+      console.log("pujasvi ",data)
+      dispatch(loading());
+      setTimeout(()=>{
+          dispatch(postJob({...data}));
+      },100)
+    } catch (e) {
+      dispatch(employerError("error adding job"));
+    }
+  }
+); 
