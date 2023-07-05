@@ -1,0 +1,7 @@
+.header {
+  width:calc(100%-10);
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: end;
+  padding: 10px;
+}

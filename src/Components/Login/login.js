@@ -1,15 +1,26 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { login, logout } from "./loginSlice";
 import styles from "./login.module.css";
 import LoginForm from "./loginForm";
 import SignupForm from "./signupForm";
+import { useNavigate, useParams } from "react-router-dom";
 
 function Login() {
   const loggedin = useSelector((state) => state.login.isLoggedIn);
+  console.log("pujasvi",loggedin)
   const [type,setType]=useState("Login")
-  const dispatch = useDispatch();
+  const { redirect } = useParams;
+  const navigate = useNavigate();
+console.log("pujasvi ",loggedin)
 
+if(loggedin){
+  if (redirect) {
+    return navigate(`/${redirect}`);
+  }else{
+   return  navigate(`/`);
+  }
+}
 
   const toggle =(e)=>{
     if(e=='Login'){
