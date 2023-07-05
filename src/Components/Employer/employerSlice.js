@@ -12,7 +12,6 @@ export const employerSlice = createSlice({
   initialState,
   reducers: {
     success: (state ,action) => {
-      console.log(action)
       state.employerData= action.payload;
       state.isLoading = false;
       state.employerError = '';

@@ -8,5 +8,4 @@ const loginUser = async(data)=>{
 }
 export const addDatainDB = (data)=>{
   users.push({emailId:data?.emailId,password:data?.password,type:data?.type})
-  console.log('users',users)
 }

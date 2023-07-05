@@ -8,7 +8,6 @@ import { checkIsLoggedIn } from "./utils/commonUtils";
 
 const checkAuthenticated = (component,redirectUrl) => {
   const a =checkIsLoggedIn();
-  console.log("pujasvi ",a)
   if(checkIsLoggedIn()){
     return component
   }

@@ -4,12 +4,19 @@ import { logout } from '../Login/loginSlice';
 import { setDataInLocalStorage } from '../../utils/commonUtils';
 import classes from './home.module.css';
 import Employer from '../Employer'
+import { useNavigate, useParams } from "react-router-dom";
 
 function Home() {
+  const loginSelector = useSelector((state) => state.login); 
   const dispatch = useDispatch();
+  const navigate =useNavigate();
+  console.log(loginSelector.isLoggedIn)
+
   const logoutLocal= () =>{
       setDataInLocalStorage('user','')
       dispatch(logout())
+      navigate('/login');
+      return;
   }
   return (
     <Fragment>

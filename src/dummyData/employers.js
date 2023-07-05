@@ -1,6 +1,6 @@
 export const dummyEmployers = [
   {
-    "job_description ":
+    job_description:
       "sapien. Nunc pulvinar arcu et pede. Nunc sed orci lobortis",
     "requirements ": "c#",
     id: 1,
@@ -10,7 +10,7 @@ export const dummyEmployers = [
     applications: 100,
   },
   {
-    "job_description ":
+    job_description:
       "lobortis, nisi nibh lacinia orci, consectetuer euismod est arcu ac",
     "requirements ": "c++",
     id: 2,
@@ -20,7 +20,7 @@ export const dummyEmployers = [
     applications: 10,
   },
   {
-    "job_description ":
+    job_description:
       "ultricies adipiscing, enim mi tempor lorem, eget mollis lectus pede",
     "requirements ": "c",
     id: 3,
@@ -30,7 +30,7 @@ export const dummyEmployers = [
     applications: 5,
   },
   {
-    "job_description ":
+    job_description:
       "nec, cursus a, enim. Suspendisse aliquet, sem ut cursus luctus,",
     "requirements ": "c++",
     id: 4,
@@ -40,7 +40,7 @@ export const dummyEmployers = [
     applications: 20,
   },
   {
-    "job_description ":
+    job_description:
       "tincidunt, neque vitae semper egestas, urna justo faucibus lectus, a",
     "requirements ": "oops",
     id: 5,
@@ -50,7 +50,7 @@ export const dummyEmployers = [
     applications: 21,
   },
   {
-    "job_description ":
+    job_description:
       "massa non ante bibendum ullamcorper. Duis cursus, diam at pretium",
     "requirements ": "c#",
     id: 6,
@@ -60,7 +60,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "quam vel sapien imperdiet ornare. In faucibus. Morbi vehicula. Pellentesque",
     "requirements ": "ds",
     id: 7,
@@ -70,7 +70,7 @@ export const dummyEmployers = [
     applications: 18,
   },
   {
-    "job_description ":
+    job_description:
       "consequat dolor vitae dolor. Donec fringilla. Donec feugiat metus sit",
     "requirements ": "c++",
     id: 8,
@@ -80,7 +80,7 @@ export const dummyEmployers = [
     applications: 500,
   },
   {
-    "job_description ":
+    job_description:
       "lorem, sit amet ultricies sem magna nec quam. Curabitur vel",
     "requirements ": "oops",
     id: 9,
@@ -90,7 +90,7 @@ export const dummyEmployers = [
     applications: 200,
   },
   {
-    "job_description ":
+    job_description:
       "malesuada malesuada. Integer id magna et ipsum cursus vestibulum. Mauris",
     "requirements ": "ds",
     id: 10,
@@ -100,7 +100,7 @@ export const dummyEmployers = [
     applications: 300,
   },
   {
-    "job_description ":
+    job_description:
       "et, euismod et, commodo at, libero. Morbi accumsan laoreet ipsum.",
     "requirements ": "oops",
     id: 11,
@@ -110,7 +110,7 @@ export const dummyEmployers = [
     applications: 1000,
   },
   {
-    "job_description ":
+    job_description:
       "ligula tortor, dictum eu, placerat eget, venenatis a, magna. Lorem",
     "requirements ": "react.js",
     id: 12,
@@ -120,7 +120,7 @@ export const dummyEmployers = [
     applications: 30,
   },
   {
-    "job_description ":
+    job_description:
       "ultrices a, auctor non, feugiat nec, diam. Duis mi enim,",
     "requirements ": "ds",
     id: 13,
@@ -130,7 +130,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "at, egestas a, scelerisque sed, sapien. Nunc pulvinar arcu et",
     "requirements ": "oops",
     id: 14,
@@ -140,7 +140,7 @@ export const dummyEmployers = [
     applications: 22,
   },
   {
-    "job_description ":
+    job_description:
       "Proin nisl sem, consequat nec, mollis vitae, posuere at, velit.",
     "requirements ": "node.js",
     id: 15,
@@ -150,7 +150,7 @@ export const dummyEmployers = [
     applications: 90,
   },
   {
-    "job_description ":
+    job_description:
       "et pede. Nunc sed orci lobortis augue scelerisque mollis. Phasellus",
     "requirements ": "ts",
     id: 16,
@@ -160,7 +160,7 @@ export const dummyEmployers = [
     applications: 34,
   },
   {
-    "job_description ":
+    job_description:
       "Phasellus elit pede, malesuada vel, venenatis vel, faucibus id, libero.",
     "requirements ": "js",
     id: 17,
@@ -170,7 +170,7 @@ export const dummyEmployers = [
     applications: 100,
   },
   {
-    "job_description ":
+    job_description:
       "nonummy ultricies ornare, elit elit fermentum risus, at fringilla purus",
     "requirements ": "react.js",
     id: 18,
@@ -180,7 +180,7 @@ export const dummyEmployers = [
     applications: 10,
   },
   {
-    "job_description ":
+    job_description:
       "Proin dolor. Nulla semper tellus id nunc interdum feugiat. Sed",
     "requirements ": "react.js",
     id: 19,
@@ -190,7 +190,7 @@ export const dummyEmployers = [
     applications: 5,
   },
   {
-    "job_description ":
+    job_description:
       "pede sagittis augue, eu tempor erat neque non quam. Pellentesque",
     "requirements ": "c++",
     id: 20,
@@ -200,7 +200,7 @@ export const dummyEmployers = [
     applications: 20,
   },
   {
-    "job_description ":
+    job_description:
       "fermentum fermentum arcu. Vestibulum ante ipsum primis in faucibus orci",
     "requirements ": "ts",
     id: 21,
@@ -210,7 +210,7 @@ export const dummyEmployers = [
     applications: 21,
   },
   {
-    "job_description ":
+    job_description:
       "egestas lacinia. Sed congue, elit sed consequat auctor, nunc nulla",
     "requirements ": "python",
     id: 22,
@@ -220,7 +220,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "risus. Quisque libero lacus, varius et, euismod et, commodo at,",
     "requirements ": "c++",
     id: 23,
@@ -230,7 +230,7 @@ export const dummyEmployers = [
     applications: 18,
   },
   {
-    "job_description ":
+    job_description:
       "lorem, auctor quis, tristique ac, eleifend vitae, erat. Vivamus nisi.",
     "requirements ": "c",
     id: 24,
@@ -240,7 +240,7 @@ export const dummyEmployers = [
     applications: 500,
   },
   {
-    "job_description ":
+    job_description:
       "magnis dis parturient montes, nascetur ridiculus mus. Proin vel arcu",
     "requirements ": "node.js",
     id: 25,
@@ -250,7 +250,7 @@ export const dummyEmployers = [
     applications: 200,
   },
   {
-    "job_description ":
+    job_description:
       "Donec fringilla. Donec feugiat metus sit amet ante. Vivamus non",
     "requirements ": "ds",
     id: 26,
@@ -260,7 +260,7 @@ export const dummyEmployers = [
     applications: 300,
   },
   {
-    "job_description ":
+    job_description:
       "mi tempor lorem, eget mollis lectus pede et risus. Quisque",
     "requirements ": "ts",
     id: 27,
@@ -270,7 +270,7 @@ export const dummyEmployers = [
     applications: 1000,
   },
   {
-    "job_description ":
+    job_description:
       "tincidunt, nunc ac mattis ornare, lectus ante dictum mi, ac",
     "requirements ": "js",
     id: 28,
@@ -280,7 +280,7 @@ export const dummyEmployers = [
     applications: 30,
   },
   {
-    "job_description ":
+    job_description:
       "Nam consequat dolor vitae dolor. Donec fringilla. Donec feugiat metus",
     "requirements ": "c++",
     id: 29,
@@ -290,7 +290,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "erat, eget tincidunt dui augue eu tellus. Phasellus elit pede,",
     "requirements ": "react.js",
     id: 30,
@@ -300,7 +300,7 @@ export const dummyEmployers = [
     applications: 22,
   },
   {
-    "job_description ":
+    job_description:
       "placerat eget, venenatis a, magna. Lorem ipsum dolor sit amet,",
     "requirements ": "ds",
     id: 31,
@@ -310,7 +310,7 @@ export const dummyEmployers = [
     applications: 90,
   },
   {
-    "job_description ":
+    job_description:
       "Sed auctor odio a purus. Duis elementum, dui quis accumsan",
     "requirements ": "c",
     id: 32,
@@ -320,7 +320,7 @@ export const dummyEmployers = [
     applications: 34,
   },
   {
-    "job_description ": "at fringilla purus mauris a nunc. In at pede. Cras",
+    job_description: "at fringilla purus mauris a nunc. In at pede. Cras",
     "requirements ": "react.js",
     id: 33,
     company_name: "Malesuada Malesuada Limited",
@@ -329,7 +329,7 @@ export const dummyEmployers = [
     applications: 100,
   },
   {
-    "job_description ":
+    job_description:
       "leo elementum sem, vitae aliquam eros turpis non enim. Mauris",
     "requirements ": "react.js",
     id: 34,
@@ -339,7 +339,7 @@ export const dummyEmployers = [
     applications: 10,
   },
   {
-    "job_description ":
+    job_description:
       "sodales. Mauris blandit enim consequat purus. Maecenas libero est, congue",
     "requirements ": "oops",
     id: 35,
@@ -349,7 +349,7 @@ export const dummyEmployers = [
     applications: 5,
   },
   {
-    "job_description ":
+    job_description:
       "risus. Nulla eget metus eu erat semper rutrum. Fusce dolor",
     "requirements ": "python",
     id: 36,
@@ -359,7 +359,7 @@ export const dummyEmployers = [
     applications: 20,
   },
   {
-    "job_description ":
+    job_description:
       "ornare, libero at auctor ullamcorper, nisl arcu iaculis enim, sit",
     "requirements ": "c",
     id: 37,
@@ -369,7 +369,7 @@ export const dummyEmployers = [
     applications: 21,
   },
   {
-    "job_description ":
+    job_description:
       "mattis velit justo nec ante. Maecenas mi felis, adipiscing fringilla,",
     "requirements ": "java",
     id: 38,
@@ -379,7 +379,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "mauris sapien, cursus in, hendrerit consectetuer, cursus et, magna. Praesent",
     "requirements ": "ts",
     id: 39,
@@ -389,7 +389,7 @@ export const dummyEmployers = [
     applications: 18,
   },
   {
-    "job_description ":
+    job_description:
       "eu tempor erat neque non quam. Pellentesque habitant morbi tristique",
     "requirements ": "c#",
     id: 40,
@@ -399,7 +399,7 @@ export const dummyEmployers = [
     applications: 500,
   },
   {
-    "job_description ":
+    job_description:
       "dictum placerat, augue. Sed molestie. Sed id risus quis diam",
     "requirements ": "ts",
     id: 41,
@@ -409,7 +409,7 @@ export const dummyEmployers = [
     applications: 200,
   },
   {
-    "job_description ":
+    job_description:
       "quis diam luctus lobortis. Class aptent taciti sociosqu ad litora",
     "requirements ": "c#",
     id: 42,
@@ -419,7 +419,7 @@ export const dummyEmployers = [
     applications: 300,
   },
   {
-    "job_description ":
+    job_description:
       "egestas lacinia. Sed congue, elit sed consequat auctor, nunc nulla",
     "requirements ": "node.js",
     id: 43,
@@ -429,7 +429,7 @@ export const dummyEmployers = [
     applications: 1000,
   },
   {
-    "job_description ":
+    job_description:
       "et magnis dis parturient montes, nascetur ridiculus mus. Donec dignissim",
     "requirements ": "java",
     id: 44,
@@ -439,7 +439,7 @@ export const dummyEmployers = [
     applications: 30,
   },
   {
-    "job_description ":
+    job_description:
       "a, dui. Cras pellentesque. Sed dictum. Proin eget odio. Aliquam",
     "requirements ": "c#",
     id: 45,
@@ -449,7 +449,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "vitae sodales nisi magna sed dui. Fusce aliquam, enim nec",
     "requirements ": "js",
     id: 46,
@@ -459,7 +459,7 @@ export const dummyEmployers = [
     applications: 22,
   },
   {
-    "job_description ":
+    job_description:
       "dictum ultricies ligula. Nullam enim. Sed nulla ante, iaculis nec,",
     "requirements ": "ts",
     id: 47,
@@ -469,7 +469,7 @@ export const dummyEmployers = [
     applications: 90,
   },
   {
-    "job_description ":
+    job_description:
       "natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
     "requirements ": "java",
     id: 48,
@@ -479,7 +479,7 @@ export const dummyEmployers = [
     applications: 34,
   },
   {
-    "job_description ":
+    job_description:
       "vulputate velit eu sem. Pellentesque ut ipsum ac mi eleifend",
     "requirements ": "java",
     id: 49,
@@ -489,7 +489,7 @@ export const dummyEmployers = [
     applications: 100,
   },
   {
-    "job_description ":
+    job_description:
       "sem elit, pharetra ut, pharetra sed, hendrerit a, arcu. Sed",
     "requirements ": "node.js",
     id: 50,
@@ -499,7 +499,7 @@ export const dummyEmployers = [
     applications: 10,
   },
   {
-    "job_description ":
+    job_description:
       "ullamcorper eu, euismod ac, fermentum vel, mauris. Integer sem elit,",
     "requirements ": "java",
     id: 51,
@@ -509,7 +509,7 @@ export const dummyEmployers = [
     applications: 5,
   },
   {
-    "job_description ":
+    job_description:
       "Aliquam ornare, libero at auctor ullamcorper, nisl arcu iaculis enim,",
     "requirements ": "c++",
     id: 52,
@@ -519,7 +519,7 @@ export const dummyEmployers = [
     applications: 20,
   },
   {
-    "job_description ":
+    job_description:
       "arcu. Vestibulum ut eros non enim commodo hendrerit. Donec porttitor",
     "requirements ": "python",
     id: 53,
@@ -529,7 +529,7 @@ export const dummyEmployers = [
     applications: 21,
   },
   {
-    "job_description ":
+    job_description:
       "lobortis, nisi nibh lacinia orci, consectetuer euismod est arcu ac",
     "requirements ": "ts",
     id: 54,
@@ -539,7 +539,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "ridiculus mus. Proin vel arcu eu odio tristique pharetra. Quisque",
     "requirements ": "node.js",
     id: 55,
@@ -549,7 +549,7 @@ export const dummyEmployers = [
     applications: 18,
   },
   {
-    "job_description ":
+    job_description:
       "adipiscing. Mauris molestie pharetra nibh. Aliquam ornare, libero at auctor",
     "requirements ": "node.js",
     id: 56,
@@ -559,7 +559,7 @@ export const dummyEmployers = [
     applications: 500,
   },
   {
-    "job_description ":
+    job_description:
       "cursus, diam at pretium aliquet, metus urna convallis erat, eget",
     "requirements ": "node.js",
     id: 57,
@@ -569,7 +569,7 @@ export const dummyEmployers = [
     applications: 200,
   },
   {
-    "job_description ":
+    job_description:
       "In nec orci. Donec nibh. Quisque nonummy ipsum non arcu.",
     "requirements ": "java",
     id: 58,
@@ -579,7 +579,7 @@ export const dummyEmployers = [
     applications: 300,
   },
   {
-    "job_description ":
+    job_description:
       "Praesent eu dui. Cum sociis natoque penatibus et magnis dis",
     "requirements ": "ds",
     id: 59,
@@ -589,7 +589,7 @@ export const dummyEmployers = [
     applications: 1000,
   },
   {
-    "job_description ":
+    job_description:
       "Curabitur consequat, lectus sit amet luctus vulputate, nisi sem semper",
     "requirements ": "c",
     id: 60,
@@ -599,7 +599,7 @@ export const dummyEmployers = [
     applications: 30,
   },
   {
-    "job_description ":
+    job_description:
       "est. Nunc laoreet lectus quis massa. Mauris vestibulum, neque sed",
     "requirements ": "js",
     id: 61,
@@ -609,7 +609,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "eget lacus. Mauris non dui nec urna suscipit nonummy. Fusce",
     "requirements ": "oops",
     id: 62,
@@ -619,7 +619,7 @@ export const dummyEmployers = [
     applications: 22,
   },
   {
-    "job_description ":
+    job_description:
       "diam. Duis mi enim, condimentum eget, volutpat ornare, facilisis eget,",
     "requirements ": "oops",
     id: 63,
@@ -629,7 +629,7 @@ export const dummyEmployers = [
     applications: 90,
   },
   {
-    "job_description ":
+    job_description:
       "ac facilisis facilisis, magna tellus faucibus leo, in lobortis tellus",
     "requirements ": "python",
     id: 64,
@@ -639,7 +639,7 @@ export const dummyEmployers = [
     applications: 34,
   },
   {
-    "job_description ":
+    job_description:
       "pellentesque. Sed dictum. Proin eget odio. Aliquam vulputate ullamcorper magna.",
     "requirements ": "python",
     id: 65,
@@ -649,7 +649,7 @@ export const dummyEmployers = [
     applications: 100,
   },
   {
-    "job_description ":
+    job_description:
       "leo. Morbi neque tellus, imperdiet non, vestibulum nec, euismod in,",
     "requirements ": "c#",
     id: 66,
@@ -659,7 +659,7 @@ export const dummyEmployers = [
     applications: 10,
   },
   {
-    "job_description ":
+    job_description:
       "molestie arcu. Sed eu nibh vulputate mauris sagittis placerat. Cras",
     "requirements ": "c++",
     id: 67,
@@ -669,7 +669,7 @@ export const dummyEmployers = [
     applications: 5,
   },
   {
-    "job_description ":
+    job_description:
       "non quam. Pellentesque habitant morbi tristique senectus et netus et",
     "requirements ": "c++",
     id: 68,
@@ -679,7 +679,7 @@ export const dummyEmployers = [
     applications: 20,
   },
   {
-    "job_description ":
+    job_description:
       "eget magna. Suspendisse tristique neque venenatis lacus. Etiam bibendum fermentum",
     "requirements ": "c++",
     id: 69,
@@ -689,7 +689,7 @@ export const dummyEmployers = [
     applications: 21,
   },
   {
-    "job_description ":
+    job_description:
       "eget laoreet posuere, enim nisl elementum purus, accumsan interdum libero",
     "requirements ": "c++",
     id: 70,
@@ -699,7 +699,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "fames ac turpis egestas. Fusce aliquet magna a neque. Nullam",
     "requirements ": "c++",
     id: 71,
@@ -709,7 +709,7 @@ export const dummyEmployers = [
     applications: 18,
   },
   {
-    "job_description ":
+    job_description:
       "sem molestie sodales. Mauris blandit enim consequat purus. Maecenas libero",
     "requirements ": "js",
     id: 72,
@@ -719,7 +719,7 @@ export const dummyEmployers = [
     applications: 500,
   },
   {
-    "job_description ":
+    job_description:
       "rhoncus. Proin nisl sem, consequat nec, mollis vitae, posuere at,",
     "requirements ": "ds",
     id: 73,
@@ -729,7 +729,7 @@ export const dummyEmployers = [
     applications: 200,
   },
   {
-    "job_description ":
+    job_description:
       "pellentesque. Sed dictum. Proin eget odio. Aliquam vulputate ullamcorper magna.",
     "requirements ": "ts",
     id: 74,
@@ -739,7 +739,7 @@ export const dummyEmployers = [
     applications: 300,
   },
   {
-    "job_description ":
+    job_description:
       "porta elit, a feugiat tellus lorem eu metus. In lorem.",
     "requirements ": "ts",
     id: 75,
@@ -749,7 +749,7 @@ export const dummyEmployers = [
     applications: 1000,
   },
   {
-    "job_description ":
+    job_description:
       "dolor. Fusce mi lorem, vehicula et, rutrum eu, ultrices sit",
     "requirements ": "c#",
     id: 76,
@@ -759,7 +759,7 @@ export const dummyEmployers = [
     applications: 30,
   },
   {
-    "job_description ":
+    job_description:
       "congue. In scelerisque scelerisque dui. Suspendisse ac metus vitae velit",
     "requirements ": "node.js",
     id: 77,
@@ -769,7 +769,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "amet metus. Aliquam erat volutpat. Nulla facilisis. Suspendisse commodo tincidunt",
     "requirements ": "ts",
     id: 78,
@@ -779,7 +779,7 @@ export const dummyEmployers = [
     applications: 22,
   },
   {
-    "job_description ":
+    job_description:
       "Nunc laoreet lectus quis massa. Mauris vestibulum, neque sed dictum",
     "requirements ": "oops",
     id: 79,
@@ -789,7 +789,7 @@ export const dummyEmployers = [
     applications: 90,
   },
   {
-    "job_description ":
+    job_description:
       "luctus, ipsum leo elementum sem, vitae aliquam eros turpis non",
     "requirements ": "ds",
     id: 80,
@@ -799,7 +799,7 @@ export const dummyEmployers = [
     applications: 34,
   },
   {
-    "job_description ":
+    job_description:
       "lacus. Quisque imperdiet, erat nonummy ultricies ornare, elit elit fermentum",
     "requirements ": "js",
     id: 81,
@@ -809,7 +809,7 @@ export const dummyEmployers = [
     applications: 100,
   },
   {
-    "job_description ":
+    job_description:
       "Aenean massa. Integer vitae nibh. Donec est mauris, rhoncus id,",
     "requirements ": "node.js",
     id: 82,
@@ -819,7 +819,7 @@ export const dummyEmployers = [
     applications: 10,
   },
   {
-    "job_description ":
+    job_description:
       "sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus",
     "requirements ": "ds",
     id: 83,
@@ -829,7 +829,7 @@ export const dummyEmployers = [
     applications: 5,
   },
   {
-    "job_description ":
+    job_description:
       "lorem lorem, luctus ut, pellentesque eget, dictum placerat, augue. Sed",
     "requirements ": "oops",
     id: 84,
@@ -839,7 +839,7 @@ export const dummyEmployers = [
     applications: 20,
   },
   {
-    "job_description ":
+    job_description:
       "purus. Nullam scelerisque neque sed sem egestas blandit. Nam nulla",
     "requirements ": "oops",
     id: 85,
@@ -849,7 +849,7 @@ export const dummyEmployers = [
     applications: 21,
   },
   {
-    "job_description ":
+    job_description:
       "nec, imperdiet nec, leo. Morbi neque tellus, imperdiet non, vestibulum",
     "requirements ": "python",
     id: 86,
@@ -859,7 +859,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "commodo at, libero. Morbi accumsan laoreet ipsum. Curabitur consequat, lectus",
     "requirements ": "java",
     id: 87,
@@ -869,7 +869,7 @@ export const dummyEmployers = [
     applications: 18,
   },
   {
-    "job_description ":
+    job_description:
       "tellus non magna. Nam ligula elit, pretium et, rutrum non,",
     "requirements ": "ds",
     id: 88,
@@ -879,7 +879,7 @@ export const dummyEmployers = [
     applications: 500,
   },
   {
-    "job_description ":
+    job_description:
       "pede, nonummy ut, molestie in, tempus eu, ligula. Aenean euismod",
     "requirements ": "react.js",
     id: 89,
@@ -889,7 +889,7 @@ export const dummyEmployers = [
     applications: 200,
   },
   {
-    "job_description ":
+    job_description:
       "ipsum cursus vestibulum. Mauris magna. Duis dignissim tempor arcu. Vestibulum",
     "requirements ": "oops",
     id: 90,
@@ -899,7 +899,7 @@ export const dummyEmployers = [
     applications: 300,
   },
   {
-    "job_description ":
+    job_description:
       "ante. Maecenas mi felis, adipiscing fringilla, porttitor vulputate, posuere vulputate,",
     "requirements ": "ds",
     id: 91,
@@ -909,7 +909,7 @@ export const dummyEmployers = [
     applications: 1000,
   },
   {
-    "job_description ":
+    job_description:
       "lobortis, nisi nibh lacinia orci, consectetuer euismod est arcu ac",
     "requirements ": "node.js",
     id: 92,
@@ -919,7 +919,7 @@ export const dummyEmployers = [
     applications: 30,
   },
   {
-    "job_description ":
+    job_description:
       "nec luctus felis purus ac tellus. Suspendisse sed dolor. Fusce",
     "requirements ": "python",
     id: 93,
@@ -929,7 +929,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "Duis volutpat nunc sit amet metus. Aliquam erat volutpat. Nulla",
     "requirements ": "node.js",
     id: 94,
@@ -939,7 +939,7 @@ export const dummyEmployers = [
     applications: 22,
   },
   {
-    "job_description ":
+    job_description:
       "Proin sed turpis nec mauris blandit mattis. Cras eget nisi",
     "requirements ": "node.js",
     id: 95,
@@ -949,7 +949,7 @@ export const dummyEmployers = [
     applications: 90,
   },
   {
-    "job_description ":
+    job_description:
       "Pellentesque habitant morbi tristique senectus et netus et malesuada fames",
     "requirements ": "c",
     id: 96,
@@ -959,7 +959,7 @@ export const dummyEmployers = [
     applications: 34,
   },
   {
-    "job_description ":
+    job_description:
       "Phasellus ornare. Fusce mollis. Duis sit amet diam eu dolor",
     "requirements ": "ts",
     id: 97,
@@ -969,7 +969,7 @@ export const dummyEmployers = [
     applications: 100,
   },
   {
-    "job_description ":
+    job_description:
       "et, lacinia vitae, sodales at, velit. Pellentesque ultricies dignissim lacus.",
     "requirements ": "node.js",
     id: 98,
@@ -979,7 +979,7 @@ export const dummyEmployers = [
     applications: 10,
   },
   {
-    "job_description ":
+    job_description:
       "luctus ut, pellentesque eget, dictum placerat, augue. Sed molestie. Sed",
     "requirements ": "c++",
     id: 99,
@@ -989,7 +989,7 @@ export const dummyEmployers = [
     applications: 5,
   },
   {
-    "job_description ":
+    job_description:
       "eget varius ultrices, mauris ipsum porta elit, a feugiat tellus",
     "requirements ": "node.js",
     id: 100,
@@ -999,7 +999,7 @@ export const dummyEmployers = [
     applications: 20,
   },
   {
-    "job_description ":
+    job_description:
       "Suspendisse dui. Fusce diam nunc, ullamcorper eu, euismod ac, fermentum",
     "requirements ": "python",
     id: 101,
@@ -1009,7 +1009,7 @@ export const dummyEmployers = [
     applications: 21,
   },
   {
-    "job_description ":
+    job_description:
       "augue. Sed molestie. Sed id risus quis diam luctus lobortis.",
     "requirements ": "ts",
     id: 102,
@@ -1019,7 +1019,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "sit amet, consectetuer adipiscing elit. Etiam laoreet, libero et tristique",
     "requirements ": "c++",
     id: 103,
@@ -1029,7 +1029,7 @@ export const dummyEmployers = [
     applications: 18,
   },
   {
-    "job_description ": "sodales elit erat vitae risus. Duis a mi fringilla mi",
+    job_description: "sodales elit erat vitae risus. Duis a mi fringilla mi",
     "requirements ": "c++",
     id: 104,
     company_name: "Mollis Phasellus Libero Corp.",
@@ -1038,7 +1038,7 @@ export const dummyEmployers = [
     applications: 500,
   },
   {
-    "job_description ": "Aliquam nec enim. Nunc ut erat. Sed nunc est, mollis",
+    job_description: "Aliquam nec enim. Nunc ut erat. Sed nunc est, mollis",
     "requirements ": "ds",
     id: 105,
     company_name: "Ornare Incorporated",
@@ -1047,7 +1047,7 @@ export const dummyEmployers = [
     applications: 200,
   },
   {
-    "job_description ":
+    job_description:
       "malesuada vel, convallis in, cursus et, eros. Proin ultrices. Duis",
     "requirements ": "node.js",
     id: 106,
@@ -1057,7 +1057,7 @@ export const dummyEmployers = [
     applications: 300,
   },
   {
-    "job_description ":
+    job_description:
       "vel arcu. Curabitur ut odio vel est tempor bibendum. Donec",
     "requirements ": "java",
     id: 107,
@@ -1067,7 +1067,7 @@ export const dummyEmployers = [
     applications: 1000,
   },
   {
-    "job_description ":
+    job_description:
       "aliquet odio. Etiam ligula tortor, dictum eu, placerat eget, venenatis",
     "requirements ": "js",
     id: 108,
@@ -1077,7 +1077,7 @@ export const dummyEmployers = [
     applications: 30,
   },
   {
-    "job_description ":
+    job_description:
       "et malesuada fames ac turpis egestas. Fusce aliquet magna a",
     "requirements ": "react.js",
     id: 109,
@@ -1087,7 +1087,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "lorem, eget mollis lectus pede et risus. Quisque libero lacus,",
     "requirements ": "c++",
     id: 110,
@@ -1097,7 +1097,7 @@ export const dummyEmployers = [
     applications: 22,
   },
   {
-    "job_description ":
+    job_description:
       "orci. Ut semper pretium neque. Morbi quis urna. Nunc quis",
     "requirements ": "react.js",
     id: 111,
@@ -1107,7 +1107,7 @@ export const dummyEmployers = [
     applications: 90,
   },
   {
-    "job_description ":
+    job_description:
       "morbi tristique senectus et netus et malesuada fames ac turpis",
     "requirements ": "c#",
     id: 112,
@@ -1117,7 +1117,7 @@ export const dummyEmployers = [
     applications: 34,
   },
   {
-    "job_description ":
+    job_description:
       "fermentum risus, at fringilla purus mauris a nunc. In at",
     "requirements ": "node.js",
     id: 113,
@@ -1127,7 +1127,7 @@ export const dummyEmployers = [
     applications: 100,
   },
   {
-    "job_description ":
+    job_description:
       "amet risus. Donec egestas. Aliquam nec enim. Nunc ut erat.",
     "requirements ": "node.js",
     id: 114,
@@ -1137,7 +1137,7 @@ export const dummyEmployers = [
     applications: 10,
   },
   {
-    "job_description ":
+    job_description:
       "velit justo nec ante. Maecenas mi felis, adipiscing fringilla, porttitor",
     "requirements ": "c#",
     id: 115,
@@ -1147,7 +1147,7 @@ export const dummyEmployers = [
     applications: 5,
   },
   {
-    "job_description ":
+    job_description:
       "Suspendisse sed dolor. Fusce mi lorem, vehicula et, rutrum eu,",
     "requirements ": "react.js",
     id: 116,
@@ -1157,7 +1157,7 @@ export const dummyEmployers = [
     applications: 20,
   },
   {
-    "job_description ":
+    job_description:
       "mauris. Suspendisse aliquet molestie tellus. Aenean egestas hendrerit neque. In",
     "requirements ": "c#",
     id: 117,
@@ -1167,7 +1167,7 @@ export const dummyEmployers = [
     applications: 21,
   },
   {
-    "job_description ": "enim, sit amet ornare lectus justo eu arcu. Morbi sit",
+    job_description: "enim, sit amet ornare lectus justo eu arcu. Morbi sit",
     "requirements ": "react.js",
     id: 118,
     company_name: "Turpis Egestas Fusce Associates",
@@ -1176,7 +1176,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "velit egestas lacinia. Sed congue, elit sed consequat auctor, nunc",
     "requirements ": "node.js",
     id: 119,
@@ -1186,7 +1186,7 @@ export const dummyEmployers = [
     applications: 18,
   },
   {
-    "job_description ":
+    job_description:
       "amet, dapibus id, blandit at, nisi. Cum sociis natoque penatibus",
     "requirements ": "python",
     id: 120,
@@ -1196,7 +1196,7 @@ export const dummyEmployers = [
     applications: 500,
   },
   {
-    "job_description ":
+    job_description:
       "quam. Pellentesque habitant morbi tristique senectus et netus et malesuada",
     "requirements ": "react.js",
     id: 121,
@@ -1206,7 +1206,7 @@ export const dummyEmployers = [
     applications: 200,
   },
   {
-    "job_description ":
+    job_description:
       "Nunc sed orci lobortis augue scelerisque mollis. Phasellus libero mauris,",
     "requirements ": "java",
     id: 122,
@@ -1216,7 +1216,7 @@ export const dummyEmployers = [
     applications: 300,
   },
   {
-    "job_description ":
+    job_description:
       "nisi dictum augue malesuada malesuada. Integer id magna et ipsum",
     "requirements ": "ts",
     id: 123,
@@ -1226,7 +1226,7 @@ export const dummyEmployers = [
     applications: 1000,
   },
   {
-    "job_description ":
+    job_description:
       "erat nonummy ultricies ornare, elit elit fermentum risus, at fringilla",
     "requirements ": "react.js",
     id: 124,
@@ -1236,7 +1236,7 @@ export const dummyEmployers = [
     applications: 30,
   },
   {
-    "job_description ":
+    job_description:
       "aliquet, metus urna convallis erat, eget tincidunt dui augue eu",
     "requirements ": "c",
     id: 125,
@@ -1246,7 +1246,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "Cras sed leo. Cras vehicula aliquet libero. Integer in magna.",
     "requirements ": "python",
     id: 126,
@@ -1256,7 +1256,7 @@ export const dummyEmployers = [
     applications: 22,
   },
   {
-    "job_description ":
+    job_description:
       "Integer mollis. Integer tincidunt aliquam arcu. Aliquam ultrices iaculis odio.",
     "requirements ": "c",
     id: 127,
@@ -1266,7 +1266,7 @@ export const dummyEmployers = [
     applications: 90,
   },
   {
-    "job_description ":
+    job_description:
       "adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis",
     "requirements ": "c",
     id: 128,
@@ -1276,7 +1276,7 @@ export const dummyEmployers = [
     applications: 34,
   },
   {
-    "job_description ":
+    job_description:
       "Pellentesque habitant morbi tristique senectus et netus et malesuada fames",
     "requirements ": "c++",
     id: 129,
@@ -1286,7 +1286,7 @@ export const dummyEmployers = [
     applications: 100,
   },
   {
-    "job_description ":
+    job_description:
       "nec quam. Curabitur vel lectus. Cum sociis natoque penatibus et",
     "requirements ": "ds",
     id: 130,
@@ -1296,7 +1296,7 @@ export const dummyEmployers = [
     applications: 10,
   },
   {
-    "job_description ":
+    job_description:
       "blandit viverra. Donec tempus, lorem fringilla ornare placerat, orci lacus",
     "requirements ": "c",
     id: 131,
@@ -1306,7 +1306,7 @@ export const dummyEmployers = [
     applications: 5,
   },
   {
-    "job_description ":
+    job_description:
       "interdum. Curabitur dictum. Phasellus in felis. Nulla tempor augue ac",
     "requirements ": "c#",
     id: 132,
@@ -1316,7 +1316,7 @@ export const dummyEmployers = [
     applications: 20,
   },
   {
-    "job_description ":
+    job_description:
       "cursus. Integer mollis. Integer tincidunt aliquam arcu. Aliquam ultrices iaculis",
     "requirements ": "c#",
     id: 133,
@@ -1326,7 +1326,7 @@ export const dummyEmployers = [
     applications: 21,
   },
   {
-    "job_description ":
+    job_description:
       "quis, pede. Suspendisse dui. Fusce diam nunc, ullamcorper eu, euismod",
     "requirements ": "c",
     id: 134,
@@ -1336,7 +1336,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "ridiculus mus. Aenean eget magna. Suspendisse tristique neque venenatis lacus.",
     "requirements ": "python",
     id: 135,
@@ -1346,7 +1346,7 @@ export const dummyEmployers = [
     applications: 18,
   },
   {
-    "job_description ":
+    job_description:
       "non, vestibulum nec, euismod in, dolor. Fusce feugiat. Lorem ipsum",
     "requirements ": "ts",
     id: 136,
@@ -1356,7 +1356,7 @@ export const dummyEmployers = [
     applications: 500,
   },
   {
-    "job_description ":
+    job_description:
       "eget ipsum. Suspendisse sagittis. Nullam vitae diam. Proin dolor. Nulla",
     "requirements ": "js",
     id: 137,
@@ -1366,7 +1366,7 @@ export const dummyEmployers = [
     applications: 200,
   },
   {
-    "job_description ":
+    job_description:
       "pede. Cum sociis natoque penatibus et magnis dis parturient montes,",
     "requirements ": "node.js",
     id: 138,
@@ -1376,7 +1376,7 @@ export const dummyEmployers = [
     applications: 300,
   },
   {
-    "job_description ":
+    job_description:
       "Pellentesque tincidunt tempus risus. Donec egestas. Duis ac arcu. Nunc",
     "requirements ": "node.js",
     id: 139,
@@ -1386,7 +1386,7 @@ export const dummyEmployers = [
     applications: 1000,
   },
   {
-    "job_description ":
+    job_description:
       "blandit enim consequat purus. Maecenas libero est, congue a, aliquet",
     "requirements ": "c",
     id: 140,
@@ -1396,7 +1396,7 @@ export const dummyEmployers = [
     applications: 30,
   },
   {
-    "job_description ":
+    job_description:
       "mattis semper, dui lectus rutrum urna, nec luctus felis purus",
     "requirements ": "js",
     id: 141,
@@ -1406,7 +1406,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "malesuada ut, sem. Nulla interdum. Curabitur dictum. Phasellus in felis.",
     "requirements ": "python",
     id: 142,
@@ -1416,7 +1416,7 @@ export const dummyEmployers = [
     applications: 22,
   },
   {
-    "job_description ":
+    job_description:
       "velit. Pellentesque ultricies dignissim lacus. Aliquam rutrum lorem ac risus.",
     "requirements ": "c#",
     id: 143,
@@ -1426,7 +1426,7 @@ export const dummyEmployers = [
     applications: 90,
   },
   {
-    "job_description ":
+    job_description:
       "consectetuer, cursus et, magna. Praesent interdum ligula eu enim. Etiam",
     "requirements ": "react.js",
     id: 144,
@@ -1436,7 +1436,7 @@ export const dummyEmployers = [
     applications: 34,
   },
   {
-    "job_description ":
+    job_description:
       "parturient montes, nascetur ridiculus mus. Proin vel arcu eu odio",
     "requirements ": "node.js",
     id: 145,
@@ -1446,7 +1446,7 @@ export const dummyEmployers = [
     applications: 100,
   },
   {
-    "job_description ":
+    job_description:
       "tortor at risus. Nunc ac sem ut dolor dapibus gravida.",
     "requirements ": "oops",
     id: 146,
@@ -1456,7 +1456,7 @@ export const dummyEmployers = [
     applications: 10,
   },
   {
-    "job_description ":
+    job_description:
       "diam. Pellentesque habitant morbi tristique senectus et netus et malesuada",
     "requirements ": "js",
     id: 147,
@@ -1466,7 +1466,7 @@ export const dummyEmployers = [
     applications: 5,
   },
   {
-    "job_description ":
+    job_description:
       "elit pede, malesuada vel, venenatis vel, faucibus id, libero. Donec",
     "requirements ": "c",
     id: 148,
@@ -1476,7 +1476,7 @@ export const dummyEmployers = [
     applications: 20,
   },
   {
-    "job_description ":
+    job_description:
       "dolor, nonummy ac, feugiat non, lobortis quis, pede. Suspendisse dui.",
     "requirements ": "oops",
     id: 149,
@@ -1486,7 +1486,7 @@ export const dummyEmployers = [
     applications: 21,
   },
   {
-    "job_description ":
+    job_description:
       "Maecenas libero est, congue a, aliquet vel, vulputate eu, odio.",
     "requirements ": "node.js",
     id: 150,
@@ -1496,7 +1496,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "diam dictum sapien. Aenean massa. Integer vitae nibh. Donec est",
     "requirements ": "c",
     id: 151,
@@ -1506,7 +1506,7 @@ export const dummyEmployers = [
     applications: 18,
   },
   {
-    "job_description ":
+    job_description:
       "egestas ligula. Nullam feugiat placerat velit. Quisque varius. Nam porttitor",
     "requirements ": "python",
     id: 152,
@@ -1516,7 +1516,7 @@ export const dummyEmployers = [
     applications: 500,
   },
   {
-    "job_description ":
+    job_description:
       "urna. Nunc quis arcu vel quam dignissim pharetra. Nam ac",
     "requirements ": "oops",
     id: 153,
@@ -1526,7 +1526,7 @@ export const dummyEmployers = [
     applications: 200,
   },
   {
-    "job_description ":
+    job_description:
       "cursus purus. Nullam scelerisque neque sed sem egestas blandit. Nam",
     "requirements ": "ts",
     id: 154,
@@ -1536,7 +1536,7 @@ export const dummyEmployers = [
     applications: 300,
   },
   {
-    "job_description ":
+    job_description:
       "sit amet lorem semper auctor. Mauris vel turpis. Aliquam adipiscing",
     "requirements ": "ts",
     id: 155,
@@ -1546,7 +1546,7 @@ export const dummyEmployers = [
     applications: 1000,
   },
   {
-    "job_description ": "enim. Nunc ut erat. Sed nunc est, mollis non, cursus",
+    job_description: "enim. Nunc ut erat. Sed nunc est, mollis non, cursus",
     "requirements ": "ds",
     id: 156,
     company_name: "Augue Sed Limited",
@@ -1555,7 +1555,7 @@ export const dummyEmployers = [
     applications: 30,
   },
   {
-    "job_description ":
+    job_description:
       "nascetur ridiculus mus. Proin vel nisl. Quisque fringilla euismod enim.",
     "requirements ": "oops",
     id: 157,
@@ -1565,7 +1565,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "euismod et, commodo at, libero. Morbi accumsan laoreet ipsum. Curabitur",
     "requirements ": "ts",
     id: 158,
@@ -1575,7 +1575,7 @@ export const dummyEmployers = [
     applications: 22,
   },
   {
-    "job_description ":
+    job_description:
       "amet, dapibus id, blandit at, nisi. Cum sociis natoque penatibus",
     "requirements ": "ts",
     id: 159,
@@ -1585,7 +1585,7 @@ export const dummyEmployers = [
     applications: 90,
   },
   {
-    "job_description ":
+    job_description:
       "vel quam dignissim pharetra. Nam ac nulla. In tincidunt congue",
     "requirements ": "c",
     id: 160,
@@ -1595,7 +1595,7 @@ export const dummyEmployers = [
     applications: 34,
   },
   {
-    "job_description ":
+    job_description:
       "eget laoreet posuere, enim nisl elementum purus, accumsan interdum libero",
     "requirements ": "python",
     id: 161,
@@ -1605,7 +1605,7 @@ export const dummyEmployers = [
     applications: 100,
   },
   {
-    "job_description ":
+    job_description:
       "Etiam ligula tortor, dictum eu, placerat eget, venenatis a, magna.",
     "requirements ": "js",
     id: 162,
@@ -1615,7 +1615,7 @@ export const dummyEmployers = [
     applications: 10,
   },
   {
-    "job_description ":
+    job_description:
       "Aenean eget magna. Suspendisse tristique neque venenatis lacus. Etiam bibendum",
     "requirements ": "oops",
     id: 163,
@@ -1625,7 +1625,7 @@ export const dummyEmployers = [
     applications: 5,
   },
   {
-    "job_description ":
+    job_description:
       "nonummy ipsum non arcu. Vivamus sit amet risus. Donec egestas.",
     "requirements ": "ts",
     id: 164,
@@ -1635,7 +1635,7 @@ export const dummyEmployers = [
     applications: 20,
   },
   {
-    "job_description ":
+    job_description:
       "vel nisl. Quisque fringilla euismod enim. Etiam gravida molestie arcu.",
     "requirements ": "c",
     id: 165,
@@ -1645,7 +1645,7 @@ export const dummyEmployers = [
     applications: 21,
   },
   {
-    "job_description ":
+    job_description:
       "risus. Duis a mi fringilla mi lacinia mattis. Integer eu",
     "requirements ": "java",
     id: 166,
@@ -1655,7 +1655,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "molestie arcu. Sed eu nibh vulputate mauris sagittis placerat. Cras",
     "requirements ": "js",
     id: 167,
@@ -1665,7 +1665,7 @@ export const dummyEmployers = [
     applications: 18,
   },
   {
-    "job_description ":
+    job_description:
       "et, rutrum non, hendrerit id, ante. Nunc mauris sapien, cursus",
     "requirements ": "c++",
     id: 168,
@@ -1675,7 +1675,7 @@ export const dummyEmployers = [
     applications: 500,
   },
   {
-    "job_description ":
+    job_description:
       "consectetuer adipiscing elit. Aliquam auctor, velit eget laoreet posuere, enim",
     "requirements ": "react.js",
     id: 169,
@@ -1685,7 +1685,7 @@ export const dummyEmployers = [
     applications: 200,
   },
   {
-    "job_description ":
+    job_description:
       "luctus et ultrices posuere cubilia Curae Phasellus ornare. Fusce mollis.",
     "requirements ": "c",
     id: 170,
@@ -1695,7 +1695,7 @@ export const dummyEmployers = [
     applications: 300,
   },
   {
-    "job_description ":
+    job_description:
       "aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper.",
     "requirements ": "java",
     id: 171,
@@ -1705,7 +1705,7 @@ export const dummyEmployers = [
     applications: 1000,
   },
   {
-    "job_description ":
+    job_description:
       "consectetuer euismod est arcu ac orci. Ut semper pretium neque.",
     "requirements ": "node.js",
     id: 172,
@@ -1715,7 +1715,7 @@ export const dummyEmployers = [
     applications: 30,
   },
   {
-    "job_description ":
+    job_description:
       "malesuada vel, convallis in, cursus et, eros. Proin ultrices. Duis",
     "requirements ": "c++",
     id: 173,
@@ -1725,7 +1725,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "convallis ligula. Donec luctus aliquet odio. Etiam ligula tortor, dictum",
     "requirements ": "c++",
     id: 174,
@@ -1735,7 +1735,7 @@ export const dummyEmployers = [
     applications: 22,
   },
   {
-    "job_description ":
+    job_description:
       "sit amet ante. Vivamus non lorem vitae odio sagittis semper.",
     "requirements ": "c#",
     id: 175,
@@ -1745,7 +1745,7 @@ export const dummyEmployers = [
     applications: 90,
   },
   {
-    "job_description ":
+    job_description:
       "Phasellus in felis. Nulla tempor augue ac ipsum. Phasellus vitae",
     "requirements ": "js",
     id: 176,
@@ -1755,7 +1755,7 @@ export const dummyEmployers = [
     applications: 34,
   },
   {
-    "job_description ":
+    job_description:
       "eu metus. In lorem. Donec elementum, lorem ut aliquam iaculis,",
     "requirements ": "oops",
     id: 177,
@@ -1765,7 +1765,7 @@ export const dummyEmployers = [
     applications: 100,
   },
   {
-    "job_description ":
+    job_description:
       "volutpat. Nulla facilisis. Suspendisse commodo tincidunt nibh. Phasellus nulla. Integer",
     "requirements ": "oops",
     id: 178,
@@ -1775,7 +1775,7 @@ export const dummyEmployers = [
     applications: 10,
   },
   {
-    "job_description ":
+    job_description:
       "Vivamus sit amet risus. Donec egestas. Aliquam nec enim. Nunc",
     "requirements ": "js",
     id: 179,
@@ -1785,7 +1785,7 @@ export const dummyEmployers = [
     applications: 5,
   },
   {
-    "job_description ":
+    job_description:
       "montes, nascetur ridiculus mus. Aenean eget magna. Suspendisse tristique neque",
     "requirements ": "ts",
     id: 180,
@@ -1795,7 +1795,7 @@ export const dummyEmployers = [
     applications: 20,
   },
   {
-    "job_description ":
+    job_description:
       "Aliquam erat volutpat. Nulla facilisis. Suspendisse commodo tincidunt nibh. Phasellus",
     "requirements ": "ts",
     id: 181,
@@ -1805,7 +1805,7 @@ export const dummyEmployers = [
     applications: 21,
   },
   {
-    "job_description ":
+    job_description:
       "vulputate velit eu sem. Pellentesque ut ipsum ac mi eleifend",
     "requirements ": "oops",
     id: 182,
@@ -1815,7 +1815,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "sit amet ante. Vivamus non lorem vitae odio sagittis semper.",
     "requirements ": "node.js",
     id: 183,
@@ -1825,7 +1825,7 @@ export const dummyEmployers = [
     applications: 18,
   },
   {
-    "job_description ":
+    job_description:
       "nisi a odio semper cursus. Integer mollis. Integer tincidunt aliquam",
     "requirements ": "java",
     id: 184,
@@ -1835,7 +1835,7 @@ export const dummyEmployers = [
     applications: 500,
   },
   {
-    "job_description ":
+    job_description:
       "pretium neque. Morbi quis urna. Nunc quis arcu vel quam",
     "requirements ": "python",
     id: 185,
@@ -1845,7 +1845,7 @@ export const dummyEmployers = [
     applications: 200,
   },
   {
-    "job_description ":
+    job_description:
       "Nulla eu neque pellentesque massa lobortis ultrices. Vivamus rhoncus. Donec",
     "requirements ": "c#",
     id: 186,
@@ -1855,7 +1855,7 @@ export const dummyEmployers = [
     applications: 300,
   },
   {
-    "job_description ":
+    job_description:
       "magna. Suspendisse tristique neque venenatis lacus. Etiam bibendum fermentum metus.",
     "requirements ": "c",
     id: 187,
@@ -1865,7 +1865,7 @@ export const dummyEmployers = [
     applications: 1000,
   },
   {
-    "job_description ":
+    job_description:
       "Phasellus elit pede, malesuada vel, venenatis vel, faucibus id, libero.",
     "requirements ": "react.js",
     id: 188,
@@ -1875,7 +1875,7 @@ export const dummyEmployers = [
     applications: 30,
   },
   {
-    "job_description ":
+    job_description:
       "aliquet molestie tellus. Aenean egestas hendrerit neque. In ornare sagittis",
     "requirements ": "oops",
     id: 189,
@@ -1885,7 +1885,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "sodales. Mauris blandit enim consequat purus. Maecenas libero est, congue",
     "requirements ": "ds",
     id: 190,
@@ -1895,7 +1895,7 @@ export const dummyEmployers = [
     applications: 22,
   },
   {
-    "job_description ":
+    job_description:
       "sem egestas blandit. Nam nulla magna, malesuada vel, convallis in,",
     "requirements ": "ds",
     id: 191,
@@ -1905,7 +1905,7 @@ export const dummyEmployers = [
     applications: 90,
   },
   {
-    "job_description ":
+    job_description:
       "arcu. Sed eu nibh vulputate mauris sagittis placerat. Cras dictum",
     "requirements ": "ts",
     id: 192,
@@ -1915,7 +1915,7 @@ export const dummyEmployers = [
     applications: 34,
   },
   {
-    "job_description ":
+    job_description:
       "dui. Cras pellentesque. Sed dictum. Proin eget odio. Aliquam vulputate",
     "requirements ": "ds",
     id: 193,
@@ -1925,7 +1925,7 @@ export const dummyEmployers = [
     applications: 100,
   },
   {
-    "job_description ":
+    job_description:
       "sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus",
     "requirements ": "java",
     id: 194,
@@ -1935,7 +1935,7 @@ export const dummyEmployers = [
     applications: 10,
   },
   {
-    "job_description ":
+    job_description:
       "nec, eleifend non, dapibus rutrum, justo. Praesent luctus. Curabitur egestas",
     "requirements ": "python",
     id: 195,
@@ -1945,7 +1945,7 @@ export const dummyEmployers = [
     applications: 5,
   },
   {
-    "job_description ":
+    job_description:
       "vel turpis. Aliquam adipiscing lobortis risus. In mi pede, nonummy",
     "requirements ": "oops",
     id: 196,
@@ -1955,7 +1955,7 @@ export const dummyEmployers = [
     applications: 20,
   },
   {
-    "job_description ":
+    job_description:
       "amet ultricies sem magna nec quam. Curabitur vel lectus. Cum",
     "requirements ": "oops",
     id: 197,
@@ -1965,7 +1965,7 @@ export const dummyEmployers = [
     applications: 21,
   },
   {
-    "job_description ":
+    job_description:
       "arcu eu odio tristique pharetra. Quisque ac libero nec ligula",
     "requirements ": "js",
     id: 198,
@@ -1975,7 +1975,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "erat neque non quam. Pellentesque habitant morbi tristique senectus et",
     "requirements ": "ds",
     id: 199,
@@ -1985,7 +1985,7 @@ export const dummyEmployers = [
     applications: 18,
   },
   {
-    "job_description ":
+    job_description:
       "convallis convallis dolor. Quisque tincidunt pede ac urna. Ut tincidunt",
     "requirements ": "node.js",
     id: 200,
@@ -1995,7 +1995,7 @@ export const dummyEmployers = [
     applications: 500,
   },
   {
-    "job_description ":
+    job_description:
       "Phasellus libero mauris, aliquam eu, accumsan sed, facilisis vitae, orci.",
     "requirements ": "c#",
     id: 201,
@@ -2005,7 +2005,7 @@ export const dummyEmployers = [
     applications: 200,
   },
   {
-    "job_description ":
+    job_description:
       "dolor. Donec fringilla. Donec feugiat metus sit amet ante. Vivamus",
     "requirements ": "c",
     id: 202,
@@ -2015,7 +2015,7 @@ export const dummyEmployers = [
     applications: 300,
   },
   {
-    "job_description ":
+    job_description:
       "Nunc sed orci lobortis augue scelerisque mollis. Phasellus libero mauris,",
     "requirements ": "java",
     id: 203,
@@ -2025,7 +2025,7 @@ export const dummyEmployers = [
     applications: 1000,
   },
   {
-    "job_description ":
+    job_description:
       "neque et nunc. Quisque ornare tortor at risus. Nunc ac",
     "requirements ": "oops",
     id: 204,
@@ -2035,7 +2035,7 @@ export const dummyEmployers = [
     applications: 30,
   },
   {
-    "job_description ":
+    job_description:
       "ipsum ac mi eleifend egestas. Sed pharetra, felis eget varius",
     "requirements ": "c++",
     id: 205,
@@ -2045,7 +2045,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "Proin eget odio. Aliquam vulputate ullamcorper magna. Sed eu eros.",
     "requirements ": "node.js",
     id: 206,
@@ -2055,7 +2055,7 @@ export const dummyEmployers = [
     applications: 22,
   },
   {
-    "job_description ":
+    job_description:
       "vel, venenatis vel, faucibus id, libero. Donec consectetuer mauris id",
     "requirements ": "ds",
     id: 207,
@@ -2065,7 +2065,7 @@ export const dummyEmployers = [
     applications: 90,
   },
   {
-    "job_description ":
+    job_description:
       "neque non quam. Pellentesque habitant morbi tristique senectus et netus",
     "requirements ": "python",
     id: 208,
@@ -2075,7 +2075,7 @@ export const dummyEmployers = [
     applications: 34,
   },
   {
-    "job_description ":
+    job_description:
       "feugiat tellus lorem eu metus. In lorem. Donec elementum, lorem",
     "requirements ": "oops",
     id: 209,
@@ -2085,7 +2085,7 @@ export const dummyEmployers = [
     applications: 100,
   },
   {
-    "job_description ":
+    job_description:
       "dolor elit, pellentesque a, facilisis non, bibendum sed, est. Nunc",
     "requirements ": "java",
     id: 210,
@@ -2095,7 +2095,7 @@ export const dummyEmployers = [
     applications: 10,
   },
   {
-    "job_description ":
+    job_description:
       "bibendum ullamcorper. Duis cursus, diam at pretium aliquet, metus urna",
     "requirements ": "c",
     id: 211,
@@ -2105,7 +2105,7 @@ export const dummyEmployers = [
     applications: 5,
   },
   {
-    "job_description ":
+    job_description:
       "consectetuer ipsum nunc id enim. Curabitur massa. Vestibulum accumsan neque",
     "requirements ": "c++",
     id: 212,
@@ -2115,7 +2115,7 @@ export const dummyEmployers = [
     applications: 20,
   },
   {
-    "job_description ":
+    job_description:
       "lorem ipsum sodales purus, in molestie tortor nibh sit amet",
     "requirements ": "oops",
     id: 213,
@@ -2125,7 +2125,7 @@ export const dummyEmployers = [
     applications: 21,
   },
   {
-    "job_description ":
+    job_description:
       "Phasellus nulla. Integer vulputate, risus a ultricies adipiscing, enim mi",
     "requirements ": "python",
     id: 214,
@@ -2135,7 +2135,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "ultrices posuere cubilia Curae Donec tincidunt. Donec vitae erat vel",
     "requirements ": "c",
     id: 215,
@@ -2145,7 +2145,7 @@ export const dummyEmployers = [
     applications: 18,
   },
   {
-    "job_description ":
+    job_description:
       "orci luctus et ultrices posuere cubilia Curae Donec tincidunt. Donec",
     "requirements ": "ts",
     id: 216,
@@ -2155,7 +2155,7 @@ export const dummyEmployers = [
     applications: 500,
   },
   {
-    "job_description ":
+    job_description:
       "ultricies ornare, elit elit fermentum risus, at fringilla purus mauris",
     "requirements ": "java",
     id: 217,
@@ -2165,7 +2165,7 @@ export const dummyEmployers = [
     applications: 200,
   },
   {
-    "job_description ":
+    job_description:
       "imperdiet non, vestibulum nec, euismod in, dolor. Fusce feugiat. Lorem",
     "requirements ": "oops",
     id: 218,
@@ -2175,7 +2175,7 @@ export const dummyEmployers = [
     applications: 300,
   },
   {
-    "job_description ":
+    job_description:
       "felis orci, adipiscing non, luctus sit amet, faucibus ut, nulla.",
     "requirements ": "c++",
     id: 219,
@@ -2185,7 +2185,7 @@ export const dummyEmployers = [
     applications: 1000,
   },
   {
-    "job_description ":
+    job_description:
       "aliquam eu, accumsan sed, facilisis vitae, orci. Phasellus dapibus quam",
     "requirements ": "react.js",
     id: 220,
@@ -2195,7 +2195,7 @@ export const dummyEmployers = [
     applications: 30,
   },
   {
-    "job_description ":
+    job_description:
       "sit amet, dapibus id, blandit at, nisi. Cum sociis natoque",
     "requirements ": "js",
     id: 221,
@@ -2205,7 +2205,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "velit in aliquet lobortis, nisi nibh lacinia orci, consectetuer euismod",
     "requirements ": "java",
     id: 222,
@@ -2215,7 +2215,7 @@ export const dummyEmployers = [
     applications: 22,
   },
   {
-    "job_description ":
+    job_description:
       "dolor quam, elementum at, egestas a, scelerisque sed, sapien. Nunc",
     "requirements ": "react.js",
     id: 223,
@@ -2225,7 +2225,7 @@ export const dummyEmployers = [
     applications: 90,
   },
   {
-    "job_description ":
+    job_description:
       "nunc ac mattis ornare, lectus ante dictum mi, ac mattis",
     "requirements ": "ts",
     id: 224,
@@ -2235,7 +2235,7 @@ export const dummyEmployers = [
     applications: 34,
   },
   {
-    "job_description ":
+    job_description:
       "sem. Pellentesque ut ipsum ac mi eleifend egestas. Sed pharetra,",
     "requirements ": "c#",
     id: 225,
@@ -2245,7 +2245,7 @@ export const dummyEmployers = [
     applications: 100,
   },
   {
-    "job_description ":
+    job_description:
       "aliquet odio. Etiam ligula tortor, dictum eu, placerat eget, venenatis",
     "requirements ": "c",
     id: 226,
@@ -2255,7 +2255,7 @@ export const dummyEmployers = [
     applications: 10,
   },
   {
-    "job_description ":
+    job_description:
       "enim, gravida sit amet, dapibus id, blandit at, nisi. Cum",
     "requirements ": "c++",
     id: 227,
@@ -2265,7 +2265,7 @@ export const dummyEmployers = [
     applications: 5,
   },
   {
-    "job_description ":
+    job_description:
       "pede. Praesent eu dui. Cum sociis natoque penatibus et magnis",
     "requirements ": "oops",
     id: 228,
@@ -2275,7 +2275,7 @@ export const dummyEmployers = [
     applications: 20,
   },
   {
-    "job_description ":
+    job_description:
       "dis parturient montes, nascetur ridiculus mus. Proin vel arcu eu",
     "requirements ": "react.js",
     id: 229,
@@ -2285,7 +2285,7 @@ export const dummyEmployers = [
     applications: 21,
   },
   {
-    "job_description ":
+    job_description:
       "ac turpis egestas. Fusce aliquet magna a neque. Nullam ut",
     "requirements ": "java",
     id: 230,
@@ -2295,7 +2295,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices",
     "requirements ": "python",
     id: 231,
@@ -2305,7 +2305,7 @@ export const dummyEmployers = [
     applications: 18,
   },
   {
-    "job_description ":
+    job_description:
       "est. Mauris eu turpis. Nulla aliquet. Proin velit. Sed malesuada",
     "requirements ": "c#",
     id: 232,
@@ -2315,7 +2315,7 @@ export const dummyEmployers = [
     applications: 500,
   },
   {
-    "job_description ":
+    job_description:
       "ullamcorper, nisl arcu iaculis enim, sit amet ornare lectus justo",
     "requirements ": "ds",
     id: 233,
@@ -2325,7 +2325,7 @@ export const dummyEmployers = [
     applications: 200,
   },
   {
-    "job_description ":
+    job_description:
       "ac, feugiat non, lobortis quis, pede. Suspendisse dui. Fusce diam",
     "requirements ": "ts",
     id: 234,
@@ -2335,7 +2335,7 @@ export const dummyEmployers = [
     applications: 300,
   },
   {
-    "job_description ":
+    job_description:
       "ultrices posuere cubilia Curae Phasellus ornare. Fusce mollis. Duis sit",
     "requirements ": "c",
     id: 235,
@@ -2345,7 +2345,7 @@ export const dummyEmployers = [
     applications: 1000,
   },
   {
-    "job_description ":
+    job_description:
       "ante. Nunc mauris sapien, cursus in, hendrerit consectetuer, cursus et,",
     "requirements ": "oops",
     id: 236,
@@ -2355,7 +2355,7 @@ export const dummyEmployers = [
     applications: 30,
   },
   {
-    "job_description ":
+    job_description:
       "ultrices. Vivamus rhoncus. Donec est. Nunc ullamcorper, velit in aliquet",
     "requirements ": "js",
     id: 237,
@@ -2365,7 +2365,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "Aenean massa. Integer vitae nibh. Donec est mauris, rhoncus id,",
     "requirements ": "oops",
     id: 238,
@@ -2375,7 +2375,7 @@ export const dummyEmployers = [
     applications: 22,
   },
   {
-    "job_description ":
+    job_description:
       "Phasellus vitae mauris sit amet lorem semper auctor. Mauris vel",
     "requirements ": "node.js",
     id: 239,
@@ -2385,7 +2385,7 @@ export const dummyEmployers = [
     applications: 90,
   },
   {
-    "job_description ":
+    job_description:
       "ut mi. Duis risus odio, auctor vitae, aliquet nec, imperdiet",
     "requirements ": "java",
     id: 240,
@@ -2395,7 +2395,7 @@ export const dummyEmployers = [
     applications: 34,
   },
   {
-    "job_description ":
+    job_description:
       "tincidunt pede ac urna. Ut tincidunt vehicula risus. Nulla eget",
     "requirements ": "oops",
     id: 241,
@@ -2405,7 +2405,7 @@ export const dummyEmployers = [
     applications: 100,
   },
   {
-    "job_description ":
+    job_description:
       "fermentum risus, at fringilla purus mauris a nunc. In at",
     "requirements ": "c",
     id: 242,
@@ -2415,7 +2415,7 @@ export const dummyEmployers = [
     applications: 10,
   },
   {
-    "job_description ":
+    job_description:
       "nec ante blandit viverra. Donec tempus, lorem fringilla ornare placerat,",
     "requirements ": "c++",
     id: 243,
@@ -2425,7 +2425,7 @@ export const dummyEmployers = [
     applications: 5,
   },
   {
-    "job_description ":
+    job_description:
       "inceptos hymenaeos. Mauris ut quam vel sapien imperdiet ornare. In",
     "requirements ": "java",
     id: 244,
@@ -2435,7 +2435,7 @@ export const dummyEmployers = [
     applications: 20,
   },
   {
-    "job_description ":
+    job_description:
       "at augue id ante dictum cursus. Nunc mauris elit, dictum",
     "requirements ": "node.js",
     id: 245,
@@ -2445,7 +2445,7 @@ export const dummyEmployers = [
     applications: 21,
   },
   {
-    "job_description ":
+    job_description:
       "Aenean sed pede nec ante blandit viverra. Donec tempus, lorem",
     "requirements ": "js",
     id: 246,
@@ -2455,7 +2455,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "luctus lobortis. Class aptent taciti sociosqu ad litora torquent per",
     "requirements ": "c",
     id: 247,
@@ -2465,7 +2465,7 @@ export const dummyEmployers = [
     applications: 18,
   },
   {
-    "job_description ":
+    job_description:
       "pellentesque, tellus sem mollis dui, in sodales elit erat vitae",
     "requirements ": "c++",
     id: 248,
@@ -2475,7 +2475,7 @@ export const dummyEmployers = [
     applications: 500,
   },
   {
-    "job_description ":
+    job_description:
       "enim mi tempor lorem, eget mollis lectus pede et risus.",
     "requirements ": "oops",
     id: 249,
@@ -2485,7 +2485,7 @@ export const dummyEmployers = [
     applications: 200,
   },
   {
-    "job_description ":
+    job_description:
       "est. Mauris eu turpis. Nulla aliquet. Proin velit. Sed malesuada",
     "requirements ": "js",
     id: 250,
@@ -2495,7 +2495,7 @@ export const dummyEmployers = [
     applications: 300,
   },
   {
-    "job_description ":
+    job_description:
       "tincidunt orci quis lectus. Nullam suscipit, est ac facilisis facilisis,",
     "requirements ": "c#",
     id: 251,
@@ -2505,7 +2505,7 @@ export const dummyEmployers = [
     applications: 1000,
   },
   {
-    "job_description ":
+    job_description:
       "sed turpis nec mauris blandit mattis. Cras eget nisi dictum",
     "requirements ": "c++",
     id: 252,
@@ -2515,7 +2515,7 @@ export const dummyEmployers = [
     applications: 30,
   },
   {
-    "job_description ":
+    job_description:
       "vehicula risus. Nulla eget metus eu erat semper rutrum. Fusce",
     "requirements ": "java",
     id: 253,
@@ -2525,7 +2525,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "Phasellus nulla. Integer vulputate, risus a ultricies adipiscing, enim mi",
     "requirements ": "java",
     id: 254,
@@ -2535,7 +2535,7 @@ export const dummyEmployers = [
     applications: 22,
   },
   {
-    "job_description ":
+    job_description:
       "eget mollis lectus pede et risus. Quisque libero lacus, varius",
     "requirements ": "oops",
     id: 255,
@@ -2545,7 +2545,7 @@ export const dummyEmployers = [
     applications: 90,
   },
   {
-    "job_description ":
+    job_description:
       "luctus et ultrices posuere cubilia Curae Donec tincidunt. Donec vitae",
     "requirements ": "react.js",
     id: 256,
@@ -2555,7 +2555,7 @@ export const dummyEmployers = [
     applications: 34,
   },
   {
-    "job_description ":
+    job_description:
       "libero et tristique pellentesque, tellus sem mollis dui, in sodales",
     "requirements ": "react.js",
     id: 257,
@@ -2565,7 +2565,7 @@ export const dummyEmployers = [
     applications: 100,
   },
   {
-    "job_description ":
+    job_description:
       "sagittis. Nullam vitae diam. Proin dolor. Nulla semper tellus id",
     "requirements ": "python",
     id: 258,
@@ -2575,7 +2575,7 @@ export const dummyEmployers = [
     applications: 10,
   },
   {
-    "job_description ":
+    job_description:
       "luctus et ultrices posuere cubilia Curae Phasellus ornare. Fusce mollis.",
     "requirements ": "react.js",
     id: 259,
@@ -2585,7 +2585,7 @@ export const dummyEmployers = [
     applications: 5,
   },
   {
-    "job_description ":
+    job_description:
       "eu tellus. Phasellus elit pede, malesuada vel, venenatis vel, faucibus",
     "requirements ": "c++",
     id: 260,
@@ -2595,7 +2595,7 @@ export const dummyEmployers = [
     applications: 20,
   },
   {
-    "job_description ":
+    job_description:
       "senectus et netus et malesuada fames ac turpis egestas. Fusce",
     "requirements ": "react.js",
     id: 261,
@@ -2605,7 +2605,7 @@ export const dummyEmployers = [
     applications: 21,
   },
   {
-    "job_description ":
+    job_description:
       "euismod urna. Nullam lobortis quam a felis ullamcorper viverra. Maecenas",
     "requirements ": "c++",
     id: 262,
@@ -2615,7 +2615,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "arcu. Sed eu nibh vulputate mauris sagittis placerat. Cras dictum",
     "requirements ": "node.js",
     id: 263,
@@ -2625,7 +2625,7 @@ export const dummyEmployers = [
     applications: 18,
   },
   {
-    "job_description ":
+    job_description:
       "dolor elit, pellentesque a, facilisis non, bibendum sed, est. Nunc",
     "requirements ": "oops",
     id: 264,
@@ -2635,7 +2635,7 @@ export const dummyEmployers = [
     applications: 500,
   },
   {
-    "job_description ":
+    job_description:
       "fermentum fermentum arcu. Vestibulum ante ipsum primis in faucibus orci",
     "requirements ": "oops",
     id: 265,
@@ -2645,7 +2645,7 @@ export const dummyEmployers = [
     applications: 200,
   },
   {
-    "job_description ":
+    job_description:
       "volutpat. Nulla facilisis. Suspendisse commodo tincidunt nibh. Phasellus nulla. Integer",
     "requirements ": "ts",
     id: 266,
@@ -2655,7 +2655,7 @@ export const dummyEmployers = [
     applications: 300,
   },
   {
-    "job_description ":
+    job_description:
       "sodales nisi magna sed dui. Fusce aliquam, enim nec tempus",
     "requirements ": "js",
     id: 267,
@@ -2665,7 +2665,7 @@ export const dummyEmployers = [
     applications: 1000,
   },
   {
-    "job_description ":
+    job_description:
       "eros turpis non enim. Mauris quis turpis vitae purus gravida",
     "requirements ": "c++",
     id: 268,
@@ -2675,7 +2675,7 @@ export const dummyEmployers = [
     applications: 30,
   },
   {
-    "job_description ":
+    job_description:
       "In tincidunt congue turpis. In condimentum. Donec at arcu. Vestibulum",
     "requirements ": "c#",
     id: 269,
@@ -2685,7 +2685,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "neque. Nullam nisl. Maecenas malesuada fringilla est. Mauris eu turpis.",
     "requirements ": "js",
     id: 270,
@@ -2695,7 +2695,7 @@ export const dummyEmployers = [
     applications: 22,
   },
   {
-    "job_description ":
+    job_description:
       "Curae Donec tincidunt. Donec vitae erat vel pede blandit congue.",
     "requirements ": "java",
     id: 271,
@@ -2705,7 +2705,7 @@ export const dummyEmployers = [
     applications: 90,
   },
   {
-    "job_description ":
+    job_description:
       "blandit viverra. Donec tempus, lorem fringilla ornare placerat, orci lacus",
     "requirements ": "python",
     id: 272,
@@ -2715,7 +2715,7 @@ export const dummyEmployers = [
     applications: 34,
   },
   {
-    "job_description ":
+    job_description:
       "mauris elit, dictum eu, eleifend nec, malesuada ut, sem. Nulla",
     "requirements ": "python",
     id: 273,
@@ -2725,7 +2725,7 @@ export const dummyEmployers = [
     applications: 100,
   },
   {
-    "job_description ":
+    job_description:
       "malesuada fames ac turpis egestas. Fusce aliquet magna a neque.",
     "requirements ": "ds",
     id: 274,
@@ -2735,7 +2735,7 @@ export const dummyEmployers = [
     applications: 10,
   },
   {
-    "job_description ":
+    job_description:
       "libero. Integer in magna. Phasellus dolor elit, pellentesque a, facilisis",
     "requirements ": "ts",
     id: 275,
@@ -2745,7 +2745,7 @@ export const dummyEmployers = [
     applications: 5,
   },
   {
-    "job_description ":
+    job_description:
       "a, scelerisque sed, sapien. Nunc pulvinar arcu et pede. Nunc",
     "requirements ": "oops",
     id: 276,
@@ -2755,7 +2755,7 @@ export const dummyEmployers = [
     applications: 20,
   },
   {
-    "job_description ":
+    job_description:
       "sed, sapien. Nunc pulvinar arcu et pede. Nunc sed orci",
     "requirements ": "ds",
     id: 277,
@@ -2765,7 +2765,7 @@ export const dummyEmployers = [
     applications: 21,
   },
   {
-    "job_description ":
+    job_description:
       "felis eget varius ultrices, mauris ipsum porta elit, a feugiat",
     "requirements ": "c",
     id: 278,
@@ -2775,7 +2775,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "luctus et ultrices posuere cubilia Curae Phasellus ornare. Fusce mollis.",
     "requirements ": "oops",
     id: 279,
@@ -2785,7 +2785,7 @@ export const dummyEmployers = [
     applications: 18,
   },
   {
-    "job_description ":
+    job_description:
       "Curae Donec tincidunt. Donec vitae erat vel pede blandit congue.",
     "requirements ": "ds",
     id: 280,
@@ -2795,7 +2795,7 @@ export const dummyEmployers = [
     applications: 500,
   },
   {
-    "job_description ":
+    job_description:
       "orci, in consequat enim diam vel arcu. Curabitur ut odio",
     "requirements ": "node.js",
     id: 281,
@@ -2805,7 +2805,7 @@ export const dummyEmployers = [
     applications: 200,
   },
   {
-    "job_description ":
+    job_description:
       "dolor sit amet, consectetuer adipiscing elit. Aliquam auctor, velit eget",
     "requirements ": "java",
     id: 282,
@@ -2815,7 +2815,7 @@ export const dummyEmployers = [
     applications: 300,
   },
   {
-    "job_description ":
+    job_description:
       "varius et, euismod et, commodo at, libero. Morbi accumsan laoreet",
     "requirements ": "oops",
     id: 283,
@@ -2825,7 +2825,7 @@ export const dummyEmployers = [
     applications: 1000,
   },
   {
-    "job_description ":
+    job_description:
       "adipiscing. Mauris molestie pharetra nibh. Aliquam ornare, libero at auctor",
     "requirements ": "ds",
     id: 284,
@@ -2835,7 +2835,7 @@ export const dummyEmployers = [
     applications: 30,
   },
   {
-    "job_description ":
+    job_description:
       "arcu. Nunc mauris. Morbi non sapien molestie orci tincidunt adipiscing.",
     "requirements ": "python",
     id: 285,
@@ -2845,7 +2845,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "orci lacus vestibulum lorem, sit amet ultricies sem magna nec",
     "requirements ": "c",
     id: 286,
@@ -2855,7 +2855,7 @@ export const dummyEmployers = [
     applications: 22,
   },
   {
-    "job_description ":
+    job_description:
       "lorem ac risus. Morbi metus. Vivamus euismod urna. Nullam lobortis",
     "requirements ": "react.js",
     id: 287,
@@ -2865,7 +2865,7 @@ export const dummyEmployers = [
     applications: 90,
   },
   {
-    "job_description ":
+    job_description:
       "ridiculus mus. Proin vel nisl. Quisque fringilla euismod enim. Etiam",
     "requirements ": "node.js",
     id: 288,
@@ -2875,7 +2875,7 @@ export const dummyEmployers = [
     applications: 34,
   },
   {
-    "job_description ":
+    job_description:
       "netus et malesuada fames ac turpis egestas. Fusce aliquet magna",
     "requirements ": "oops",
     id: 289,
@@ -2885,7 +2885,7 @@ export const dummyEmployers = [
     applications: 100,
   },
   {
-    "job_description ":
+    job_description:
       "bibendum. Donec felis orci, adipiscing non, luctus sit amet, faucibus",
     "requirements ": "react.js",
     id: 290,
@@ -2895,7 +2895,7 @@ export const dummyEmployers = [
     applications: 10,
   },
   {
-    "job_description ":
+    job_description:
       "Integer urna. Vivamus molestie dapibus ligula. Aliquam erat volutpat. Nulla",
     "requirements ": "node.js",
     id: 291,
@@ -2905,7 +2905,7 @@ export const dummyEmployers = [
     applications: 5,
   },
   {
-    "job_description ":
+    job_description:
       "faucibus ut, nulla. Cras eu tellus eu augue porttitor interdum.",
     "requirements ": "c#",
     id: 292,
@@ -2915,7 +2915,7 @@ export const dummyEmployers = [
     applications: 20,
   },
   {
-    "job_description ":
+    job_description:
       "facilisis non, bibendum sed, est. Nunc laoreet lectus quis massa.",
     "requirements ": "ds",
     id: 293,
@@ -2925,7 +2925,7 @@ export const dummyEmployers = [
     applications: 21,
   },
   {
-    "job_description ":
+    job_description:
       "sodales nisi magna sed dui. Fusce aliquam, enim nec tempus",
     "requirements ": "c",
     id: 294,
@@ -2935,7 +2935,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "arcu. Sed eu nibh vulputate mauris sagittis placerat. Cras dictum",
     "requirements ": "c++",
     id: 295,
@@ -2945,7 +2945,7 @@ export const dummyEmployers = [
     applications: 18,
   },
   {
-    "job_description ":
+    job_description:
       "Morbi vehicula. Pellentesque tincidunt tempus risus. Donec egestas. Duis ac",
     "requirements ": "js",
     id: 296,
@@ -2955,7 +2955,7 @@ export const dummyEmployers = [
     applications: 500,
   },
   {
-    "job_description ":
+    job_description:
       "cursus, diam at pretium aliquet, metus urna convallis erat, eget",
     "requirements ": "python",
     id: 297,
@@ -2965,7 +2965,7 @@ export const dummyEmployers = [
     applications: 200,
   },
   {
-    "job_description ":
+    job_description:
       "accumsan convallis, ante lectus convallis est, vitae sodales nisi magna",
     "requirements ": "python",
     id: 298,
@@ -2975,7 +2975,7 @@ export const dummyEmployers = [
     applications: 300,
   },
   {
-    "job_description ":
+    job_description:
       "In mi pede, nonummy ut, molestie in, tempus eu, ligula.",
     "requirements ": "js",
     id: 299,
@@ -2985,7 +2985,7 @@ export const dummyEmployers = [
     applications: 1000,
   },
   {
-    "job_description ":
+    job_description:
       "sed pede. Cum sociis natoque penatibus et magnis dis parturient",
     "requirements ": "node.js",
     id: 300,
@@ -2995,7 +2995,7 @@ export const dummyEmployers = [
     applications: 30,
   },
   {
-    "job_description ":
+    job_description:
       "vitae, sodales at, velit. Pellentesque ultricies dignissim lacus. Aliquam rutrum",
     "requirements ": "ts",
     id: 301,
@@ -3005,7 +3005,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "magna et ipsum cursus vestibulum. Mauris magna. Duis dignissim tempor",
     "requirements ": "c#",
     id: 302,
@@ -3015,7 +3015,7 @@ export const dummyEmployers = [
     applications: 22,
   },
   {
-    "job_description ":
+    job_description:
       "ligula. Aliquam erat volutpat. Nulla dignissim. Maecenas ornare egestas ligula.",
     "requirements ": "ts",
     id: 303,
@@ -3025,7 +3025,7 @@ export const dummyEmployers = [
     applications: 90,
   },
   {
-    "job_description ":
+    job_description:
       "Duis a mi fringilla mi lacinia mattis. Integer eu lacus.",
     "requirements ": "react.js",
     id: 304,
@@ -3035,7 +3035,7 @@ export const dummyEmployers = [
     applications: 34,
   },
   {
-    "job_description ": "amet nulla. Donec non justo. Proin non massa non ante",
+    job_description: "amet nulla. Donec non justo. Proin non massa non ante",
     "requirements ": "oops",
     id: 305,
     company_name: "Purus Duis LLC",
@@ -3044,7 +3044,7 @@ export const dummyEmployers = [
     applications: 100,
   },
   {
-    "job_description ":
+    job_description:
       "nibh lacinia orci, consectetuer euismod est arcu ac orci. Ut",
     "requirements ": "c#",
     id: 306,
@@ -3054,7 +3054,7 @@ export const dummyEmployers = [
     applications: 10,
   },
   {
-    "job_description ":
+    job_description:
       "dui. Fusce aliquam, enim nec tempus scelerisque, lorem ipsum sodales",
     "requirements ": "java",
     id: 307,
@@ -3064,7 +3064,7 @@ export const dummyEmployers = [
     applications: 5,
   },
   {
-    "job_description ":
+    job_description:
       "at auctor ullamcorper, nisl arcu iaculis enim, sit amet ornare",
     "requirements ": "c++",
     id: 308,
@@ -3074,7 +3074,7 @@ export const dummyEmployers = [
     applications: 20,
   },
   {
-    "job_description ":
+    job_description:
       "vitae dolor. Donec fringilla. Donec feugiat metus sit amet ante.",
     "requirements ": "react.js",
     id: 309,
@@ -3084,7 +3084,7 @@ export const dummyEmployers = [
     applications: 21,
   },
   {
-    "job_description ":
+    job_description:
       "ac metus vitae velit egestas lacinia. Sed congue, elit sed",
     "requirements ": "c#",
     id: 310,
@@ -3094,7 +3094,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "iaculis, lacus pede sagittis augue, eu tempor erat neque non",
     "requirements ": "oops",
     id: 311,
@@ -3104,7 +3104,7 @@ export const dummyEmployers = [
     applications: 18,
   },
   {
-    "job_description ":
+    job_description:
       "nunc risus varius orci, in consequat enim diam vel arcu.",
     "requirements ": "java",
     id: 312,
@@ -3114,7 +3114,7 @@ export const dummyEmployers = [
     applications: 500,
   },
   {
-    "job_description ":
+    job_description:
       "Integer in magna. Phasellus dolor elit, pellentesque a, facilisis non,",
     "requirements ": "node.js",
     id: 313,
@@ -3124,7 +3124,7 @@ export const dummyEmployers = [
     applications: 200,
   },
   {
-    "job_description ":
+    job_description:
       "vulputate, nisi sem semper erat, in consectetuer ipsum nunc id",
     "requirements ": "c++",
     id: 314,
@@ -3134,7 +3134,7 @@ export const dummyEmployers = [
     applications: 300,
   },
   {
-    "job_description ":
+    job_description:
       "tellus eu augue porttitor interdum. Sed auctor odio a purus.",
     "requirements ": "ds",
     id: 315,
@@ -3144,7 +3144,7 @@ export const dummyEmployers = [
     applications: 1000,
   },
   {
-    "job_description ":
+    job_description:
       "id ante dictum cursus. Nunc mauris elit, dictum eu, eleifend",
     "requirements ": "node.js",
     id: 316,
@@ -3154,7 +3154,7 @@ export const dummyEmployers = [
     applications: 30,
   },
   {
-    "job_description ":
+    job_description:
       "ac metus vitae velit egestas lacinia. Sed congue, elit sed",
     "requirements ": "js",
     id: 317,
@@ -3164,7 +3164,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "porta elit, a feugiat tellus lorem eu metus. In lorem.",
     "requirements ": "c++",
     id: 318,
@@ -3174,7 +3174,7 @@ export const dummyEmployers = [
     applications: 22,
   },
   {
-    "job_description ":
+    job_description:
       "egestas a, scelerisque sed, sapien. Nunc pulvinar arcu et pede.",
     "requirements ": "c",
     id: 319,
@@ -3184,7 +3184,7 @@ export const dummyEmployers = [
     applications: 90,
   },
   {
-    "job_description ":
+    job_description:
       "Phasellus elit pede, malesuada vel, venenatis vel, faucibus id, libero.",
     "requirements ": "python",
     id: 320,
@@ -3194,7 +3194,7 @@ export const dummyEmployers = [
     applications: 34,
   },
   {
-    "job_description ":
+    job_description:
       "aliquet nec, imperdiet nec, leo. Morbi neque tellus, imperdiet non,",
     "requirements ": "c++",
     id: 321,
@@ -3204,7 +3204,7 @@ export const dummyEmployers = [
     applications: 100,
   },
   {
-    "job_description ": "est arcu ac orci. Ut semper pretium neque. Morbi quis",
+    job_description: "est arcu ac orci. Ut semper pretium neque. Morbi quis",
     "requirements ": "react.js",
     id: 322,
     company_name: "Velit Justo LLC",
@@ -3213,7 +3213,7 @@ export const dummyEmployers = [
     applications: 10,
   },
   {
-    "job_description ":
+    job_description:
       "aliquam iaculis, lacus pede sagittis augue, eu tempor erat neque",
     "requirements ": "node.js",
     id: 323,
@@ -3223,7 +3223,7 @@ export const dummyEmployers = [
     applications: 5,
   },
   {
-    "job_description ":
+    job_description:
       "mollis vitae, posuere at, velit. Cras lorem lorem, luctus ut,",
     "requirements ": "ds",
     id: 324,
@@ -3233,7 +3233,7 @@ export const dummyEmployers = [
     applications: 20,
   },
   {
-    "job_description ":
+    job_description:
       "a, magna. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
     "requirements ": "c",
     id: 325,
@@ -3243,7 +3243,7 @@ export const dummyEmployers = [
     applications: 21,
   },
   {
-    "job_description ":
+    job_description:
       "eget odio. Aliquam vulputate ullamcorper magna. Sed eu eros. Nam",
     "requirements ": "ds",
     id: 326,
@@ -3253,7 +3253,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "montes, nascetur ridiculus mus. Donec dignissim magna a tortor. Nunc",
     "requirements ": "js",
     id: 327,
@@ -3263,7 +3263,7 @@ export const dummyEmployers = [
     applications: 18,
   },
   {
-    "job_description ":
+    job_description:
       "at augue id ante dictum cursus. Nunc mauris elit, dictum",
     "requirements ": "oops",
     id: 328,
@@ -3273,7 +3273,7 @@ export const dummyEmployers = [
     applications: 500,
   },
   {
-    "job_description ":
+    job_description:
       "lorem ac risus. Morbi metus. Vivamus euismod urna. Nullam lobortis",
     "requirements ": "java",
     id: 329,
@@ -3283,7 +3283,7 @@ export const dummyEmployers = [
     applications: 200,
   },
   {
-    "job_description ":
+    job_description:
       "adipiscing. Mauris molestie pharetra nibh. Aliquam ornare, libero at auctor",
     "requirements ": "c#",
     id: 330,
@@ -3293,7 +3293,7 @@ export const dummyEmployers = [
     applications: 300,
   },
   {
-    "job_description ":
+    job_description:
       "Quisque fringilla euismod enim. Etiam gravida molestie arcu. Sed eu",
     "requirements ": "c#",
     id: 331,
@@ -3303,7 +3303,7 @@ export const dummyEmployers = [
     applications: 1000,
   },
   {
-    "job_description ":
+    job_description:
       "lectus convallis est, vitae sodales nisi magna sed dui. Fusce",
     "requirements ": "java",
     id: 332,
@@ -3313,7 +3313,7 @@ export const dummyEmployers = [
     applications: 30,
   },
   {
-    "job_description ":
+    job_description:
       "tellus faucibus leo, in lobortis tellus justo sit amet nulla.",
     "requirements ": "react.js",
     id: 333,
@@ -3323,7 +3323,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "egestas, urna justo faucibus lectus, a sollicitudin orci sem eget",
     "requirements ": "c",
     id: 334,
@@ -3333,7 +3333,7 @@ export const dummyEmployers = [
     applications: 22,
   },
   {
-    "job_description ":
+    job_description:
       "pede. Cras vulputate velit eu sem. Pellentesque ut ipsum ac",
     "requirements ": "ds",
     id: 335,
@@ -3343,7 +3343,7 @@ export const dummyEmployers = [
     applications: 90,
   },
   {
-    "job_description ":
+    job_description:
       "ut eros non enim commodo hendrerit. Donec porttitor tellus non",
     "requirements ": "python",
     id: 336,
@@ -3353,7 +3353,7 @@ export const dummyEmployers = [
     applications: 34,
   },
   {
-    "job_description ":
+    job_description:
       "at augue id ante dictum cursus. Nunc mauris elit, dictum",
     "requirements ": "js",
     id: 337,
@@ -3363,7 +3363,7 @@ export const dummyEmployers = [
     applications: 100,
   },
   {
-    "job_description ":
+    job_description:
       "dignissim. Maecenas ornare egestas ligula. Nullam feugiat placerat velit. Quisque",
     "requirements ": "js",
     id: 338,
@@ -3373,7 +3373,7 @@ export const dummyEmployers = [
     applications: 10,
   },
   {
-    "job_description ":
+    job_description:
       "commodo ipsum. Suspendisse non leo. Vivamus nibh dolor, nonummy ac,",
     "requirements ": "oops",
     id: 339,
@@ -3383,7 +3383,7 @@ export const dummyEmployers = [
     applications: 5,
   },
   {
-    "job_description ":
+    job_description:
       "sollicitudin adipiscing ligula. Aenean gravida nunc sed pede. Cum sociis",
     "requirements ": "python",
     id: 340,
@@ -3393,7 +3393,7 @@ export const dummyEmployers = [
     applications: 20,
   },
   {
-    "job_description ":
+    job_description:
       "Nunc sed orci lobortis augue scelerisque mollis. Phasellus libero mauris,",
     "requirements ": "react.js",
     id: 341,
@@ -3403,7 +3403,7 @@ export const dummyEmployers = [
     applications: 21,
   },
   {
-    "job_description ":
+    job_description:
       "mollis. Phasellus libero mauris, aliquam eu, accumsan sed, facilisis vitae,",
     "requirements ": "c#",
     id: 342,
@@ -3413,7 +3413,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "tempor erat neque non quam. Pellentesque habitant morbi tristique senectus",
     "requirements ": "ds",
     id: 343,
@@ -3423,7 +3423,7 @@ export const dummyEmployers = [
     applications: 18,
   },
   {
-    "job_description ":
+    job_description:
       "ac, fermentum vel, mauris. Integer sem elit, pharetra ut, pharetra",
     "requirements ": "python",
     id: 344,
@@ -3433,7 +3433,7 @@ export const dummyEmployers = [
     applications: 500,
   },
   {
-    "job_description ":
+    job_description:
       "elit fermentum risus, at fringilla purus mauris a nunc. In",
     "requirements ": "c",
     id: 345,
@@ -3443,7 +3443,7 @@ export const dummyEmployers = [
     applications: 200,
   },
   {
-    "job_description ":
+    job_description:
       "lobortis ultrices. Vivamus rhoncus. Donec est. Nunc ullamcorper, velit in",
     "requirements ": "java",
     id: 346,
@@ -3453,7 +3453,7 @@ export const dummyEmployers = [
     applications: 300,
   },
   {
-    "job_description ":
+    job_description:
       "ante bibendum ullamcorper. Duis cursus, diam at pretium aliquet, metus",
     "requirements ": "c#",
     id: 347,
@@ -3463,7 +3463,7 @@ export const dummyEmployers = [
     applications: 1000,
   },
   {
-    "job_description ":
+    job_description:
       "adipiscing lobortis risus. In mi pede, nonummy ut, molestie in,",
     "requirements ": "c++",
     id: 348,
@@ -3473,7 +3473,7 @@ export const dummyEmployers = [
     applications: 30,
   },
   {
-    "job_description ":
+    job_description:
       "enim. Etiam imperdiet dictum magna. Ut tincidunt orci quis lectus.",
     "requirements ": "java",
     id: 349,
@@ -3483,7 +3483,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "tincidunt aliquam arcu. Aliquam ultrices iaculis odio. Nam interdum enim",
     "requirements ": "c++",
     id: 350,
@@ -3493,7 +3493,7 @@ export const dummyEmployers = [
     applications: 22,
   },
   {
-    "job_description ":
+    job_description:
       "consequat purus. Maecenas libero est, congue a, aliquet vel, vulputate",
     "requirements ": "ds",
     id: 351,
@@ -3503,7 +3503,7 @@ export const dummyEmployers = [
     applications: 90,
   },
   {
-    "job_description ":
+    job_description:
       "dolor sit amet, consectetuer adipiscing elit. Aliquam auctor, velit eget",
     "requirements ": "ds",
     id: 352,
@@ -3513,7 +3513,7 @@ export const dummyEmployers = [
     applications: 34,
   },
   {
-    "job_description ":
+    job_description:
       "Aliquam rutrum lorem ac risus. Morbi metus. Vivamus euismod urna.",
     "requirements ": "c++",
     id: 353,
@@ -3523,7 +3523,7 @@ export const dummyEmployers = [
     applications: 100,
   },
   {
-    "job_description ":
+    job_description:
       "Mauris molestie pharetra nibh. Aliquam ornare, libero at auctor ullamcorper,",
     "requirements ": "java",
     id: 354,
@@ -3533,7 +3533,7 @@ export const dummyEmployers = [
     applications: 10,
   },
   {
-    "job_description ":
+    job_description:
       "diam dictum sapien. Aenean massa. Integer vitae nibh. Donec est",
     "requirements ": "python",
     id: 355,
@@ -3543,7 +3543,7 @@ export const dummyEmployers = [
     applications: 5,
   },
   {
-    "job_description ":
+    job_description:
       "urna. Ut tincidunt vehicula risus. Nulla eget metus eu erat",
     "requirements ": "ds",
     id: 356,
@@ -3553,7 +3553,7 @@ export const dummyEmployers = [
     applications: 20,
   },
   {
-    "job_description ":
+    job_description:
       "Aliquam erat volutpat. Nulla dignissim. Maecenas ornare egestas ligula. Nullam",
     "requirements ": "c",
     id: 357,
@@ -3563,7 +3563,7 @@ export const dummyEmployers = [
     applications: 21,
   },
   {
-    "job_description ":
+    job_description:
       "rhoncus. Nullam velit dui, semper et, lacinia vitae, sodales at,",
     "requirements ": "java",
     id: 358,
@@ -3573,7 +3573,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "pede, ultrices a, auctor non, feugiat nec, diam. Duis mi",
     "requirements ": "java",
     id: 359,
@@ -3583,7 +3583,7 @@ export const dummyEmployers = [
     applications: 18,
   },
   {
-    "job_description ":
+    job_description:
       "sed leo. Cras vehicula aliquet libero. Integer in magna. Phasellus",
     "requirements ": "react.js",
     id: 360,
@@ -3593,7 +3593,7 @@ export const dummyEmployers = [
     applications: 500,
   },
   {
-    "job_description ":
+    job_description:
       "Proin velit. Sed malesuada augue ut lacus. Nulla tincidunt, neque",
     "requirements ": "java",
     id: 361,
@@ -3603,7 +3603,7 @@ export const dummyEmployers = [
     applications: 200,
   },
   {
-    "job_description ":
+    job_description:
       "at risus. Nunc ac sem ut dolor dapibus gravida. Aliquam",
     "requirements ": "java",
     id: 362,
@@ -3613,7 +3613,7 @@ export const dummyEmployers = [
     applications: 300,
   },
   {
-    "job_description ":
+    job_description:
       "non, cursus non, egestas a, dui. Cras pellentesque. Sed dictum.",
     "requirements ": "react.js",
     id: 363,
@@ -3623,7 +3623,7 @@ export const dummyEmployers = [
     applications: 1000,
   },
   {
-    "job_description ":
+    job_description:
       "arcu. Vestibulum ut eros non enim commodo hendrerit. Donec porttitor",
     "requirements ": "c#",
     id: 364,
@@ -3633,7 +3633,7 @@ export const dummyEmployers = [
     applications: 30,
   },
   {
-    "job_description ":
+    job_description:
       "diam nunc, ullamcorper eu, euismod ac, fermentum vel, mauris. Integer",
     "requirements ": "ts",
     id: 365,
@@ -3643,7 +3643,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "tincidunt pede ac urna. Ut tincidunt vehicula risus. Nulla eget",
     "requirements ": "node.js",
     id: 366,
@@ -3653,7 +3653,7 @@ export const dummyEmployers = [
     applications: 22,
   },
   {
-    "job_description ":
+    job_description:
       "magna. Phasellus dolor elit, pellentesque a, facilisis non, bibendum sed,",
     "requirements ": "ds",
     id: 367,
@@ -3663,7 +3663,7 @@ export const dummyEmployers = [
     applications: 90,
   },
   {
-    "job_description ":
+    job_description:
       "euismod urna. Nullam lobortis quam a felis ullamcorper viverra. Maecenas",
     "requirements ": "c++",
     id: 368,
@@ -3673,7 +3673,7 @@ export const dummyEmployers = [
     applications: 34,
   },
   {
-    "job_description ":
+    job_description:
       "turpis egestas. Aliquam fringilla cursus purus. Nullam scelerisque neque sed",
     "requirements ": "react.js",
     id: 369,
@@ -3683,7 +3683,7 @@ export const dummyEmployers = [
     applications: 100,
   },
   {
-    "job_description ":
+    job_description:
       "sit amet massa. Quisque porttitor eros nec tellus. Nunc lectus",
     "requirements ": "java",
     id: 370,
@@ -3693,7 +3693,7 @@ export const dummyEmployers = [
     applications: 10,
   },
   {
-    "job_description ":
+    job_description:
       "nunc interdum feugiat. Sed nec metus facilisis lorem tristique aliquet.",
     "requirements ": "ds",
     id: 371,
@@ -3703,7 +3703,7 @@ export const dummyEmployers = [
     applications: 5,
   },
   {
-    "job_description ":
+    job_description:
       "augue ut lacus. Nulla tincidunt, neque vitae semper egestas, urna",
     "requirements ": "python",
     id: 372,
@@ -3713,7 +3713,7 @@ export const dummyEmployers = [
     applications: 20,
   },
   {
-    "job_description ":
+    job_description:
       "consectetuer, cursus et, magna. Praesent interdum ligula eu enim. Etiam",
     "requirements ": "c#",
     id: 373,
@@ -3723,7 +3723,7 @@ export const dummyEmployers = [
     applications: 21,
   },
   {
-    "job_description ":
+    job_description:
       "urna. Vivamus molestie dapibus ligula. Aliquam erat volutpat. Nulla dignissim.",
     "requirements ": "js",
     id: 374,
@@ -3733,7 +3733,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "montes, nascetur ridiculus mus. Proin vel nisl. Quisque fringilla euismod",
     "requirements ": "java",
     id: 375,
@@ -3743,7 +3743,7 @@ export const dummyEmployers = [
     applications: 18,
   },
   {
-    "job_description ":
+    job_description:
       "nonummy. Fusce fermentum fermentum arcu. Vestibulum ante ipsum primis in",
     "requirements ": "c",
     id: 376,
@@ -3753,7 +3753,7 @@ export const dummyEmployers = [
     applications: 500,
   },
   {
-    "job_description ":
+    job_description:
       "Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat.",
     "requirements ": "oops",
     id: 377,
@@ -3763,7 +3763,7 @@ export const dummyEmployers = [
     applications: 200,
   },
   {
-    "job_description ":
+    job_description:
       "diam luctus lobortis. Class aptent taciti sociosqu ad litora torquent",
     "requirements ": "ds",
     id: 378,
@@ -3773,7 +3773,7 @@ export const dummyEmployers = [
     applications: 300,
   },
   {
-    "job_description ":
+    job_description:
       "commodo at, libero. Morbi accumsan laoreet ipsum. Curabitur consequat, lectus",
     "requirements ": "c++",
     id: 379,
@@ -3783,7 +3783,7 @@ export const dummyEmployers = [
     applications: 1000,
   },
   {
-    "job_description ":
+    job_description:
       "arcu eu odio tristique pharetra. Quisque ac libero nec ligula",
     "requirements ": "c++",
     id: 380,
@@ -3793,7 +3793,7 @@ export const dummyEmployers = [
     applications: 30,
   },
   {
-    "job_description ":
+    job_description:
       "dolor vitae dolor. Donec fringilla. Donec feugiat metus sit amet",
     "requirements ": "react.js",
     id: 381,
@@ -3803,7 +3803,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "quam a felis ullamcorper viverra. Maecenas iaculis aliquet diam. Sed",
     "requirements ": "ds",
     id: 382,
@@ -3813,7 +3813,7 @@ export const dummyEmployers = [
     applications: 22,
   },
   {
-    "job_description ":
+    job_description:
       "faucibus lectus, a sollicitudin orci sem eget massa. Suspendisse eleifend.",
     "requirements ": "node.js",
     id: 383,
@@ -3823,7 +3823,7 @@ export const dummyEmployers = [
     applications: 90,
   },
   {
-    "job_description ":
+    job_description:
       "non arcu. Vivamus sit amet risus. Donec egestas. Aliquam nec",
     "requirements ": "python",
     id: 384,
@@ -3833,7 +3833,7 @@ export const dummyEmployers = [
     applications: 34,
   },
   {
-    "job_description ":
+    job_description:
       "vestibulum massa rutrum magna. Cras convallis convallis dolor. Quisque tincidunt",
     "requirements ": "c++",
     id: 385,
@@ -3843,7 +3843,7 @@ export const dummyEmployers = [
     applications: 100,
   },
   {
-    "job_description ":
+    job_description:
       "a purus. Duis elementum, dui quis accumsan convallis, ante lectus",
     "requirements ": "ts",
     id: 386,
@@ -3853,7 +3853,7 @@ export const dummyEmployers = [
     applications: 10,
   },
   {
-    "job_description ":
+    job_description:
       "tellus faucibus leo, in lobortis tellus justo sit amet nulla.",
     "requirements ": "oops",
     id: 387,
@@ -3863,7 +3863,7 @@ export const dummyEmployers = [
     applications: 5,
   },
   {
-    "job_description ":
+    job_description:
       "velit in aliquet lobortis, nisi nibh lacinia orci, consectetuer euismod",
     "requirements ": "c++",
     id: 388,
@@ -3873,7 +3873,7 @@ export const dummyEmployers = [
     applications: 20,
   },
   {
-    "job_description ":
+    job_description:
       "mauris blandit mattis. Cras eget nisi dictum augue malesuada malesuada.",
     "requirements ": "node.js",
     id: 389,
@@ -3883,7 +3883,7 @@ export const dummyEmployers = [
     applications: 21,
   },
   {
-    "job_description ":
+    job_description:
       "nisi. Aenean eget metus. In nec orci. Donec nibh. Quisque",
     "requirements ": "java",
     id: 390,
@@ -3893,7 +3893,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "facilisis non, bibendum sed, est. Nunc laoreet lectus quis massa.",
     "requirements ": "react.js",
     id: 391,
@@ -3903,7 +3903,7 @@ export const dummyEmployers = [
     applications: 18,
   },
   {
-    "job_description ":
+    job_description:
       "Fusce mollis. Duis sit amet diam eu dolor egestas rhoncus.",
     "requirements ": "react.js",
     id: 392,
@@ -3913,7 +3913,7 @@ export const dummyEmployers = [
     applications: 500,
   },
   {
-    "job_description ":
+    job_description:
       "lorem ac risus. Morbi metus. Vivamus euismod urna. Nullam lobortis",
     "requirements ": "oops",
     id: 393,
@@ -3923,7 +3923,7 @@ export const dummyEmployers = [
     applications: 200,
   },
   {
-    "job_description ":
+    job_description:
       "est. Nunc ullamcorper, velit in aliquet lobortis, nisi nibh lacinia",
     "requirements ": "python",
     id: 394,
@@ -3933,7 +3933,7 @@ export const dummyEmployers = [
     applications: 300,
   },
   {
-    "job_description ":
+    job_description:
       "justo. Praesent luctus. Curabitur egestas nunc sed libero. Proin sed",
     "requirements ": "react.js",
     id: 395,
@@ -3943,7 +3943,7 @@ export const dummyEmployers = [
     applications: 1000,
   },
   {
-    "job_description ":
+    job_description:
       "et libero. Proin mi. Aliquam gravida mauris ut mi. Duis",
     "requirements ": "java",
     id: 396,
@@ -3953,7 +3953,7 @@ export const dummyEmployers = [
     applications: 30,
   },
   {
-    "job_description ":
+    job_description:
       "feugiat non, lobortis quis, pede. Suspendisse dui. Fusce diam nunc,",
     "requirements ": "oops",
     id: 397,
@@ -3963,7 +3963,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "odio. Phasellus at augue id ante dictum cursus. Nunc mauris",
     "requirements ": "js",
     id: 398,
@@ -3973,7 +3973,7 @@ export const dummyEmployers = [
     applications: 22,
   },
   {
-    "job_description ":
+    job_description:
       "lobortis, nisi nibh lacinia orci, consectetuer euismod est arcu ac",
     "requirements ": "oops",
     id: 399,
@@ -3983,7 +3983,7 @@ export const dummyEmployers = [
     applications: 90,
   },
   {
-    "job_description ":
+    job_description:
       "non quam. Pellentesque habitant morbi tristique senectus et netus et",
     "requirements ": "react.js",
     id: 400,
@@ -3993,7 +3993,7 @@ export const dummyEmployers = [
     applications: 34,
   },
   {
-    "job_description ":
+    job_description:
       "aliquam eros turpis non enim. Mauris quis turpis vitae purus",
     "requirements ": "c",
     id: 401,
@@ -4003,7 +4003,7 @@ export const dummyEmployers = [
     applications: 100,
   },
   {
-    "job_description ":
+    job_description:
       "nec urna suscipit nonummy. Fusce fermentum fermentum arcu. Vestibulum ante",
     "requirements ": "react.js",
     id: 402,
@@ -4013,7 +4013,7 @@ export const dummyEmployers = [
     applications: 10,
   },
   {
-    "job_description ":
+    job_description:
       "fringilla euismod enim. Etiam gravida molestie arcu. Sed eu nibh",
     "requirements ": "node.js",
     id: 403,
@@ -4023,7 +4023,7 @@ export const dummyEmployers = [
     applications: 5,
   },
   {
-    "job_description ":
+    job_description:
       "nisi dictum augue malesuada malesuada. Integer id magna et ipsum",
     "requirements ": "node.js",
     id: 404,
@@ -4033,7 +4033,7 @@ export const dummyEmployers = [
     applications: 20,
   },
   {
-    "job_description ":
+    job_description:
       "mollis. Phasellus libero mauris, aliquam eu, accumsan sed, facilisis vitae,",
     "requirements ": "js",
     id: 405,
@@ -4043,7 +4043,7 @@ export const dummyEmployers = [
     applications: 21,
   },
   {
-    "job_description ":
+    job_description:
       "pede ac urna. Ut tincidunt vehicula risus. Nulla eget metus",
     "requirements ": "c++",
     id: 406,
@@ -4053,7 +4053,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "sodales nisi magna sed dui. Fusce aliquam, enim nec tempus",
     "requirements ": "java",
     id: 407,
@@ -4063,7 +4063,7 @@ export const dummyEmployers = [
     applications: 18,
   },
   {
-    "job_description ":
+    job_description:
       "gravida mauris ut mi. Duis risus odio, auctor vitae, aliquet",
     "requirements ": "c++",
     id: 408,
@@ -4073,7 +4073,7 @@ export const dummyEmployers = [
     applications: 500,
   },
   {
-    "job_description ":
+    job_description:
       "cursus, diam at pretium aliquet, metus urna convallis erat, eget",
     "requirements ": "c#",
     id: 409,
@@ -4083,7 +4083,7 @@ export const dummyEmployers = [
     applications: 200,
   },
   {
-    "job_description ":
+    job_description:
       "in faucibus orci luctus et ultrices posuere cubilia Curae Donec",
     "requirements ": "oops",
     id: 410,
@@ -4093,7 +4093,7 @@ export const dummyEmployers = [
     applications: 300,
   },
   {
-    "job_description ":
+    job_description:
       "vel sapien imperdiet ornare. In faucibus. Morbi vehicula. Pellentesque tincidunt",
     "requirements ": "react.js",
     id: 411,
@@ -4103,7 +4103,7 @@ export const dummyEmployers = [
     applications: 1000,
   },
   {
-    "job_description ":
+    job_description:
       "Donec est mauris, rhoncus id, mollis nec, cursus a, enim.",
     "requirements ": "react.js",
     id: 412,
@@ -4113,7 +4113,7 @@ export const dummyEmployers = [
     applications: 30,
   },
   {
-    "job_description ":
+    job_description:
       "Duis volutpat nunc sit amet metus. Aliquam erat volutpat. Nulla",
     "requirements ": "react.js",
     id: 413,
@@ -4123,7 +4123,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "sit amet orci. Ut sagittis lobortis mauris. Suspendisse aliquet molestie",
     "requirements ": "c#",
     id: 414,
@@ -4133,7 +4133,7 @@ export const dummyEmployers = [
     applications: 22,
   },
   {
-    "job_description ":
+    job_description:
       "gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa",
     "requirements ": "react.js",
     id: 415,
@@ -4143,7 +4143,7 @@ export const dummyEmployers = [
     applications: 90,
   },
   {
-    "job_description ":
+    job_description:
       "ac urna. Ut tincidunt vehicula risus. Nulla eget metus eu",
     "requirements ": "oops",
     id: 416,
@@ -4153,7 +4153,7 @@ export const dummyEmployers = [
     applications: 34,
   },
   {
-    "job_description ":
+    job_description:
       "metus eu erat semper rutrum. Fusce dolor quam, elementum at,",
     "requirements ": "oops",
     id: 417,
@@ -4163,7 +4163,7 @@ export const dummyEmployers = [
     applications: 100,
   },
   {
-    "job_description ":
+    job_description:
       "non, luctus sit amet, faucibus ut, nulla. Cras eu tellus",
     "requirements ": "c",
     id: 418,
@@ -4173,7 +4173,7 @@ export const dummyEmployers = [
     applications: 10,
   },
   {
-    "job_description ":
+    job_description:
       "Mauris molestie pharetra nibh. Aliquam ornare, libero at auctor ullamcorper,",
     "requirements ": "python",
     id: 419,
@@ -4183,7 +4183,7 @@ export const dummyEmployers = [
     applications: 5,
   },
   {
-    "job_description ":
+    job_description:
       "cursus. Integer mollis. Integer tincidunt aliquam arcu. Aliquam ultrices iaculis",
     "requirements ": "node.js",
     id: 420,
@@ -4193,7 +4193,7 @@ export const dummyEmployers = [
     applications: 20,
   },
   {
-    "job_description ":
+    job_description:
       "Nunc lectus pede, ultrices a, auctor non, feugiat nec, diam.",
     "requirements ": "react.js",
     id: 421,
@@ -4203,7 +4203,7 @@ export const dummyEmployers = [
     applications: 21,
   },
   {
-    "job_description ":
+    job_description:
       "tempor lorem, eget mollis lectus pede et risus. Quisque libero",
     "requirements ": "java",
     id: 422,
@@ -4213,7 +4213,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "congue, elit sed consequat auctor, nunc nulla vulputate dui, nec",
     "requirements ": "c#",
     id: 423,
@@ -4223,7 +4223,7 @@ export const dummyEmployers = [
     applications: 18,
   },
   {
-    "job_description ":
+    job_description:
       "Nullam velit dui, semper et, lacinia vitae, sodales at, velit.",
     "requirements ": "node.js",
     id: 424,
@@ -4233,7 +4233,7 @@ export const dummyEmployers = [
     applications: 500,
   },
   {
-    "job_description ":
+    job_description:
       "Suspendisse ac metus vitae velit egestas lacinia. Sed congue, elit",
     "requirements ": "c#",
     id: 425,
@@ -4243,7 +4243,7 @@ export const dummyEmployers = [
     applications: 200,
   },
   {
-    "job_description ":
+    job_description:
       "iaculis aliquet diam. Sed diam lorem, auctor quis, tristique ac,",
     "requirements ": "ds",
     id: 426,
@@ -4253,7 +4253,7 @@ export const dummyEmployers = [
     applications: 300,
   },
   {
-    "job_description ":
+    job_description:
       "massa. Mauris vestibulum, neque sed dictum eleifend, nunc risus varius",
     "requirements ": "node.js",
     id: 427,
@@ -4263,7 +4263,7 @@ export const dummyEmployers = [
     applications: 1000,
   },
   {
-    "job_description ":
+    job_description:
       "eu tempor erat neque non quam. Pellentesque habitant morbi tristique",
     "requirements ": "java",
     id: 428,
@@ -4273,7 +4273,7 @@ export const dummyEmployers = [
     applications: 30,
   },
   {
-    "job_description ":
+    job_description:
       "mauris ut mi. Duis risus odio, auctor vitae, aliquet nec,",
     "requirements ": "java",
     id: 429,
@@ -4283,7 +4283,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "lorem ac risus. Morbi metus. Vivamus euismod urna. Nullam lobortis",
     "requirements ": "node.js",
     id: 430,
@@ -4293,7 +4293,7 @@ export const dummyEmployers = [
     applications: 22,
   },
   {
-    "job_description ":
+    job_description:
       "suscipit nonummy. Fusce fermentum fermentum arcu. Vestibulum ante ipsum primis",
     "requirements ": "oops",
     id: 431,
@@ -4303,7 +4303,7 @@ export const dummyEmployers = [
     applications: 90,
   },
   {
-    "job_description ":
+    job_description:
       "Nunc mauris sapien, cursus in, hendrerit consectetuer, cursus et, magna.",
     "requirements ": "c++",
     id: 432,
@@ -4313,7 +4313,7 @@ export const dummyEmployers = [
     applications: 34,
   },
   {
-    "job_description ":
+    job_description:
       "at arcu. Vestibulum ante ipsum primis in faucibus orci luctus",
     "requirements ": "c++",
     id: 433,
@@ -4323,7 +4323,7 @@ export const dummyEmployers = [
     applications: 100,
   },
   {
-    "job_description ":
+    job_description:
       "id, erat. Etiam vestibulum massa rutrum magna. Cras convallis convallis",
     "requirements ": "oops",
     id: 434,
@@ -4333,7 +4333,7 @@ export const dummyEmployers = [
     applications: 10,
   },
   {
-    "job_description ":
+    job_description:
       "lobortis. Class aptent taciti sociosqu ad litora torquent per conubia",
     "requirements ": "node.js",
     id: 435,
@@ -4343,7 +4343,7 @@ export const dummyEmployers = [
     applications: 5,
   },
   {
-    "job_description ":
+    job_description:
       "mauris id sapien. Cras dolor dolor, tempus non, lacinia at,",
     "requirements ": "ds",
     id: 436,
@@ -4353,7 +4353,7 @@ export const dummyEmployers = [
     applications: 20,
   },
   {
-    "job_description ":
+    job_description:
       "risus. Donec egestas. Aliquam nec enim. Nunc ut erat. Sed",
     "requirements ": "oops",
     id: 437,
@@ -4363,7 +4363,7 @@ export const dummyEmployers = [
     applications: 21,
   },
   {
-    "job_description ":
+    job_description:
       "fermentum arcu. Vestibulum ante ipsum primis in faucibus orci luctus",
     "requirements ": "node.js",
     id: 438,
@@ -4373,7 +4373,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "convallis erat, eget tincidunt dui augue eu tellus. Phasellus elit",
     "requirements ": "ts",
     id: 439,
@@ -4383,7 +4383,7 @@ export const dummyEmployers = [
     applications: 18,
   },
   {
-    "job_description ":
+    job_description:
       "elit, dictum eu, eleifend nec, malesuada ut, sem. Nulla interdum.",
     "requirements ": "ds",
     id: 440,
@@ -4393,7 +4393,7 @@ export const dummyEmployers = [
     applications: 500,
   },
   {
-    "job_description ":
+    job_description:
       "ac mi eleifend egestas. Sed pharetra, felis eget varius ultrices,",
     "requirements ": "java",
     id: 441,
@@ -4403,7 +4403,7 @@ export const dummyEmployers = [
     applications: 200,
   },
   {
-    "job_description ":
+    job_description:
       "Donec at arcu. Vestibulum ante ipsum primis in faucibus orci",
     "requirements ": "ts",
     id: 442,
@@ -4413,7 +4413,7 @@ export const dummyEmployers = [
     applications: 300,
   },
   {
-    "job_description ":
+    job_description:
       "tincidunt aliquam arcu. Aliquam ultrices iaculis odio. Nam interdum enim",
     "requirements ": "ds",
     id: 443,
@@ -4423,7 +4423,7 @@ export const dummyEmployers = [
     applications: 1000,
   },
   {
-    "job_description ":
+    job_description:
       "erat, in consectetuer ipsum nunc id enim. Curabitur massa. Vestibulum",
     "requirements ": "ts",
     id: 444,
@@ -4433,7 +4433,7 @@ export const dummyEmployers = [
     applications: 30,
   },
   {
-    "job_description ":
+    job_description:
       "amet risus. Donec egestas. Aliquam nec enim. Nunc ut erat.",
     "requirements ": "ts",
     id: 445,
@@ -4443,7 +4443,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "scelerisque mollis. Phasellus libero mauris, aliquam eu, accumsan sed, facilisis",
     "requirements ": "c++",
     id: 446,
@@ -4453,7 +4453,7 @@ export const dummyEmployers = [
     applications: 22,
   },
   {
-    "job_description ": "enim non nisi. Aenean eget metus. In nec orci. Donec",
+    job_description: "enim non nisi. Aenean eget metus. In nec orci. Donec",
     "requirements ": "python",
     id: 447,
     company_name: "Non Sapien LLC",
@@ -4462,7 +4462,7 @@ export const dummyEmployers = [
     applications: 90,
   },
   {
-    "job_description ":
+    job_description:
       "velit egestas lacinia. Sed congue, elit sed consequat auctor, nunc",
     "requirements ": "react.js",
     id: 448,
@@ -4472,7 +4472,7 @@ export const dummyEmployers = [
     applications: 34,
   },
   {
-    "job_description ":
+    job_description:
       "amet orci. Ut sagittis lobortis mauris. Suspendisse aliquet molestie tellus.",
     "requirements ": "java",
     id: 449,
@@ -4482,7 +4482,7 @@ export const dummyEmployers = [
     applications: 100,
   },
   {
-    "job_description ":
+    job_description:
       "adipiscing, enim mi tempor lorem, eget mollis lectus pede et",
     "requirements ": "python",
     id: 450,
@@ -4492,7 +4492,7 @@ export const dummyEmployers = [
     applications: 10,
   },
   {
-    "job_description ":
+    job_description:
       "a, enim. Suspendisse aliquet, sem ut cursus luctus, ipsum leo",
     "requirements ": "python",
     id: 451,
@@ -4502,7 +4502,7 @@ export const dummyEmployers = [
     applications: 5,
   },
   {
-    "job_description ":
+    job_description:
       "augue id ante dictum cursus. Nunc mauris elit, dictum eu,",
     "requirements ": "ds",
     id: 452,
@@ -4512,7 +4512,7 @@ export const dummyEmployers = [
     applications: 20,
   },
   {
-    "job_description ":
+    job_description:
       "lacus pede sagittis augue, eu tempor erat neque non quam.",
     "requirements ": "js",
     id: 453,
@@ -4522,7 +4522,7 @@ export const dummyEmployers = [
     applications: 21,
   },
   {
-    "job_description ":
+    job_description:
       "ipsum sodales purus, in molestie tortor nibh sit amet orci.",
     "requirements ": "js",
     id: 454,
@@ -4532,7 +4532,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "libero. Proin mi. Aliquam gravida mauris ut mi. Duis risus",
     "requirements ": "c",
     id: 455,
@@ -4542,7 +4542,7 @@ export const dummyEmployers = [
     applications: 18,
   },
   {
-    "job_description ":
+    job_description:
       "dolor quam, elementum at, egestas a, scelerisque sed, sapien. Nunc",
     "requirements ": "ts",
     id: 456,
@@ -4552,7 +4552,7 @@ export const dummyEmployers = [
     applications: 500,
   },
   {
-    "job_description ":
+    job_description:
       "mi felis, adipiscing fringilla, porttitor vulputate, posuere vulputate, lacus. Cras",
     "requirements ": "c#",
     id: 457,
@@ -4562,7 +4562,7 @@ export const dummyEmployers = [
     applications: 200,
   },
   {
-    "job_description ":
+    job_description:
       "molestie arcu. Sed eu nibh vulputate mauris sagittis placerat. Cras",
     "requirements ": "c",
     id: 458,
@@ -4572,7 +4572,7 @@ export const dummyEmployers = [
     applications: 300,
   },
   {
-    "job_description ":
+    job_description:
       "Sed et libero. Proin mi. Aliquam gravida mauris ut mi.",
     "requirements ": "python",
     id: 459,
@@ -4582,7 +4582,7 @@ export const dummyEmployers = [
     applications: 1000,
   },
   {
-    "job_description ":
+    job_description:
       "natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
     "requirements ": "js",
     id: 460,
@@ -4592,7 +4592,7 @@ export const dummyEmployers = [
     applications: 30,
   },
   {
-    "job_description ":
+    job_description:
       "elit. Aliquam auctor, velit eget laoreet posuere, enim nisl elementum",
     "requirements ": "java",
     id: 461,
@@ -4602,7 +4602,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus",
     "requirements ": "c#",
     id: 462,
@@ -4612,7 +4612,7 @@ export const dummyEmployers = [
     applications: 22,
   },
   {
-    "job_description ":
+    job_description:
       "semper et, lacinia vitae, sodales at, velit. Pellentesque ultricies dignissim",
     "requirements ": "c#",
     id: 463,
@@ -4622,7 +4622,7 @@ export const dummyEmployers = [
     applications: 90,
   },
   {
-    "job_description ":
+    job_description:
       "leo. Morbi neque tellus, imperdiet non, vestibulum nec, euismod in,",
     "requirements ": "ts",
     id: 464,
@@ -4632,7 +4632,7 @@ export const dummyEmployers = [
     applications: 34,
   },
   {
-    "job_description ":
+    job_description:
       "diam nunc, ullamcorper eu, euismod ac, fermentum vel, mauris. Integer",
     "requirements ": "oops",
     id: 465,
@@ -4642,7 +4642,7 @@ export const dummyEmployers = [
     applications: 100,
   },
   {
-    "job_description ":
+    job_description:
       "lobortis risus. In mi pede, nonummy ut, molestie in, tempus",
     "requirements ": "c#",
     id: 466,
@@ -4652,7 +4652,7 @@ export const dummyEmployers = [
     applications: 10,
   },
   {
-    "job_description ":
+    job_description:
       "commodo hendrerit. Donec porttitor tellus non magna. Nam ligula elit,",
     "requirements ": "python",
     id: 467,
@@ -4662,7 +4662,7 @@ export const dummyEmployers = [
     applications: 5,
   },
   {
-    "job_description ": "non nisi. Aenean eget metus. In nec orci. Donec nibh.",
+    job_description: "non nisi. Aenean eget metus. In nec orci. Donec nibh.",
     "requirements ": "c",
     id: 468,
     company_name: "Sagittis Inc.",
@@ -4671,7 +4671,7 @@ export const dummyEmployers = [
     applications: 20,
   },
   {
-    "job_description ":
+    job_description:
       "ipsum primis in faucibus orci luctus et ultrices posuere cubilia",
     "requirements ": "c",
     id: 469,
@@ -4681,7 +4681,7 @@ export const dummyEmployers = [
     applications: 21,
   },
   {
-    "job_description ":
+    job_description:
       "augue eu tellus. Phasellus elit pede, malesuada vel, venenatis vel,",
     "requirements ": "oops",
     id: 470,
@@ -4691,7 +4691,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "ornare, elit elit fermentum risus, at fringilla purus mauris a",
     "requirements ": "c++",
     id: 471,
@@ -4701,7 +4701,7 @@ export const dummyEmployers = [
     applications: 18,
   },
   {
-    "job_description ":
+    job_description:
       "dapibus id, blandit at, nisi. Cum sociis natoque penatibus et",
     "requirements ": "c#",
     id: 472,
@@ -4711,7 +4711,7 @@ export const dummyEmployers = [
     applications: 500,
   },
   {
-    "job_description ":
+    job_description:
       "vel, convallis in, cursus et, eros. Proin ultrices. Duis volutpat",
     "requirements ": "c++",
     id: 473,
@@ -4721,7 +4721,7 @@ export const dummyEmployers = [
     applications: 200,
   },
   {
-    "job_description ":
+    job_description:
       "nec metus facilisis lorem tristique aliquet. Phasellus fermentum convallis ligula.",
     "requirements ": "c++",
     id: 474,
@@ -4731,7 +4731,7 @@ export const dummyEmployers = [
     applications: 300,
   },
   {
-    "job_description ":
+    job_description:
       "cursus non, egestas a, dui. Cras pellentesque. Sed dictum. Proin",
     "requirements ": "oops",
     id: 475,
@@ -4741,7 +4741,7 @@ export const dummyEmployers = [
     applications: 1000,
   },
   {
-    "job_description ":
+    job_description:
       "molestie tellus. Aenean egestas hendrerit neque. In ornare sagittis felis.",
     "requirements ": "ds",
     id: 476,
@@ -4751,7 +4751,7 @@ export const dummyEmployers = [
     applications: 30,
   },
   {
-    "job_description ":
+    job_description:
       "pede, nonummy ut, molestie in, tempus eu, ligula. Aenean euismod",
     "requirements ": "python",
     id: 477,
@@ -4761,7 +4761,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "non, bibendum sed, est. Nunc laoreet lectus quis massa. Mauris",
     "requirements ": "node.js",
     id: 478,
@@ -4771,7 +4771,7 @@ export const dummyEmployers = [
     applications: 22,
   },
   {
-    "job_description ":
+    job_description:
       "nec ante blandit viverra. Donec tempus, lorem fringilla ornare placerat,",
     "requirements ": "python",
     id: 479,
@@ -4781,7 +4781,7 @@ export const dummyEmployers = [
     applications: 90,
   },
   {
-    "job_description ":
+    job_description:
       "sit amet, consectetuer adipiscing elit. Aliquam auctor, velit eget laoreet",
     "requirements ": "ts",
     id: 480,
@@ -4791,7 +4791,7 @@ export const dummyEmployers = [
     applications: 34,
   },
   {
-    "job_description ":
+    job_description:
       "aliquam eu, accumsan sed, facilisis vitae, orci. Phasellus dapibus quam",
     "requirements ": "ds",
     id: 481,
@@ -4801,7 +4801,7 @@ export const dummyEmployers = [
     applications: 100,
   },
   {
-    "job_description ":
+    job_description:
       "vulputate eu, odio. Phasellus at augue id ante dictum cursus.",
     "requirements ": "python",
     id: 482,
@@ -4811,7 +4811,7 @@ export const dummyEmployers = [
     applications: 10,
   },
   {
-    "job_description ":
+    job_description:
       "sem eget massa. Suspendisse eleifend. Cras sed leo. Cras vehicula",
     "requirements ": "c",
     id: 483,
@@ -4821,7 +4821,7 @@ export const dummyEmployers = [
     applications: 5,
   },
   {
-    "job_description ":
+    job_description:
       "aliquet odio. Etiam ligula tortor, dictum eu, placerat eget, venenatis",
     "requirements ": "ts",
     id: 484,
@@ -4831,7 +4831,7 @@ export const dummyEmployers = [
     applications: 20,
   },
   {
-    "job_description ":
+    job_description:
       "varius ultrices, mauris ipsum porta elit, a feugiat tellus lorem",
     "requirements ": "node.js",
     id: 485,
@@ -4841,7 +4841,7 @@ export const dummyEmployers = [
     applications: 21,
   },
   {
-    "job_description ":
+    job_description:
       "dolor. Fusce mi lorem, vehicula et, rutrum eu, ultrices sit",
     "requirements ": "ds",
     id: 486,
@@ -4851,7 +4851,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "ornare placerat, orci lacus vestibulum lorem, sit amet ultricies sem",
     "requirements ": "c#",
     id: 487,
@@ -4861,7 +4861,7 @@ export const dummyEmployers = [
     applications: 18,
   },
   {
-    "job_description ":
+    job_description:
       "nunc interdum feugiat. Sed nec metus facilisis lorem tristique aliquet.",
     "requirements ": "oops",
     id: 488,
@@ -4871,7 +4871,7 @@ export const dummyEmployers = [
     applications: 500,
   },
   {
-    "job_description ":
+    job_description:
       "egestas. Fusce aliquet magna a neque. Nullam ut nisi a",
     "requirements ": "c#",
     id: 489,
@@ -4881,7 +4881,7 @@ export const dummyEmployers = [
     applications: 200,
   },
   {
-    "job_description ":
+    job_description:
       "mauris sagittis placerat. Cras dictum ultricies ligula. Nullam enim. Sed",
     "requirements ": "ts",
     id: 490,
@@ -4891,7 +4891,7 @@ export const dummyEmployers = [
     applications: 300,
   },
   {
-    "job_description ":
+    job_description:
       "habitant morbi tristique senectus et netus et malesuada fames ac",
     "requirements ": "node.js",
     id: 491,
@@ -4901,7 +4901,7 @@ export const dummyEmployers = [
     applications: 1000,
   },
   {
-    "job_description ":
+    job_description:
       "posuere, enim nisl elementum purus, accumsan interdum libero dui nec",
     "requirements ": "java",
     id: 492,
@@ -4911,7 +4911,7 @@ export const dummyEmployers = [
     applications: 30,
   },
   {
-    "job_description ":
+    job_description:
       "magna. Suspendisse tristique neque venenatis lacus. Etiam bibendum fermentum metus.",
     "requirements ": "java",
     id: 493,
@@ -4921,7 +4921,7 @@ export const dummyEmployers = [
     applications: 40,
   },
   {
-    "job_description ":
+    job_description:
       "faucibus leo, in lobortis tellus justo sit amet nulla. Donec",
     "requirements ": "java",
     id: 494,
@@ -4931,7 +4931,7 @@ export const dummyEmployers = [
     applications: 22,
   },
   {
-    "job_description ":
+    job_description:
       "felis ullamcorper viverra. Maecenas iaculis aliquet diam. Sed diam lorem,",
     "requirements ": "python",
     id: 495,
@@ -4941,7 +4941,7 @@ export const dummyEmployers = [
     applications: 90,
   },
   {
-    "job_description ": "enim non nisi. Aenean eget metus. In nec orci. Donec",
+    job_description: "enim non nisi. Aenean eget metus. In nec orci. Donec",
     "requirements ": "c++",
     id: 496,
     company_name: "Odio Limited",
@@ -4950,7 +4950,7 @@ export const dummyEmployers = [
     applications: 34,
   },
   {
-    "job_description ":
+    job_description:
       "lectus, a sollicitudin orci sem eget massa. Suspendisse eleifend. Cras",
     "requirements ": "c++",
     id: 497,
@@ -4960,7 +4960,7 @@ export const dummyEmployers = [
     applications: 100,
   },
   {
-    "job_description ":
+    job_description:
       "tempor diam dictum sapien. Aenean massa. Integer vitae nibh. Donec",
     "requirements ": "python",
     id: 498,
@@ -4970,7 +4970,7 @@ export const dummyEmployers = [
     applications: 10,
   },
   {
-    "job_description ":
+    job_description:
       "Aenean egestas hendrerit neque. In ornare sagittis felis. Donec tempor,",
     "requirements ": "oops",
     id: 499,
@@ -4980,7 +4980,7 @@ export const dummyEmployers = [
     applications: 5,
   },
   {
-    "job_description ":
+    job_description:
       "interdum. Nunc sollicitudin commodo ipsum. Suspendisse non leo. Vivamus nibh",
     "requirements ": "oops",
     id: 500,

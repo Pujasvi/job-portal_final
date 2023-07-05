@@ -10,14 +10,12 @@ export const getEmployerData = createAsyncThunk(
       dispatch(loading());
       const res = await getEmployerDataApi(checkIsLoggedIn());
       if (res.status == 200) {
-        console.log("pujasvi res",res)
         dispatch(success(res.data));
         return;
       }
       dispatch(employerError(res.message));
     } catch (e) {
       dispatch(employerError(e));
-      console.log("pujasvi ", e);
     }
   }
 );

@@ -21,14 +21,13 @@ function SignupForm(props) {
         event.preventDefault()
        isNotSamePassword = !isEmpty(cPassword) &&  (password != cPassword);
        if(isNotSamePassword)return ; 
-      console.log('formdata',formData)
       dispatch(signupAction(formData))
       // return formData;
   }
 
 
   isNotSamePassword = !isEmpty(cPassword) &&  (password != cPassword);
-  console.log("pujasvi ",!isEmpty(cPassword),password,cPassword)
+
   return (
     <form className={classes.form}>
       <label htmlFor="emailId"/>

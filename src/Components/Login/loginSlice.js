@@ -6,24 +6,25 @@ import isEmpty from 'lodash/isEmpty';
 const initialState = {
   isLoggedIn: !isEmpty(checkIsLoggedIn()) ? true : false,
   loginError :'' ,
-  isLoading:false
+  isLoading:false,
+  userType :''
 };
 
 export const loginSlice = createSlice({
   name: "Login",
   initialState,
   reducers: {
-    login: (state) => {
+    login: (state,action) => {
       state.isLoading=false;
       state.isLoggedIn = true;
       state.loginError = '';
+      state.userType = action.payload.type;
     },
     logout: (state) => {
       state.isLoggedIn = false;
     },
     loginError :(state,action)=>{
       state.isLoading=false;
-      console.log(action)
       state.loginError =action.payload.message;
     },
     loading :(state)=>{
