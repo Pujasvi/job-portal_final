@@ -605,7 +605,6 @@ export const users =
       "password": "123",
       "type": "F",
       "id": 101
-
     }
   ]
   

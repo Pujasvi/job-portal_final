@@ -4,6 +4,9 @@ import Home from "./Components/Home";
 import App from "./App";
 import Login from "./Components/Login/login";
 import { checkIsLoggedIn } from "./utils/commonUtils";
+import EmployerRoutes from "./Components/Employer/EmployerRoutes";
+import Employer from "./Components/Employer";
+import EmployerForm from "./Components/Employer/employerForm/EmployerForm";
 
 
 const checkAuthenticated = (component,redirectUrl) => {
@@ -20,16 +23,28 @@ const checkAuthenticated = (component,redirectUrl) => {
 export const router = createBrowserRouter([
   {
     path:"/",
-    element: checkAuthenticated(<Home/>,'home')
+    element: <Navigate to="/home" replace />
   },
+
   {
     path:"/login",
     element: <Login/>
   },
   {
     path:"/home",
-    element:checkAuthenticated(<Home/>, 'home')
-  }
+    // element:checkAuthenticated(<Home/>, 'home'),
+    children: [
+      {
+        path: "/home/view-jobs",
+        element: <><Home/><Employer /></>
+      },
+      {
+        path: "/home/post-job",
+        element: <><Home/><EmployerForm /></>
+      },
+    ],
+  },
+  
 ])
 
 const AppRouter = () => {

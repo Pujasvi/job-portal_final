@@ -1,6 +1,6 @@
 .header {
   width:calc(100%-10);
-  background-color: antiquewhite;
+  background-color: #ECEEF0;
   display: flex;
   justify-content: end;
   padding: 10px;

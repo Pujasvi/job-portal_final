@@ -24,6 +24,7 @@ export const employerSlice = createSlice({
       state.employerError='';
       state.isLoading=true;
     },
+    
   },
 });
 export const { success,employerError ,loading } = employerSlice.actions;
