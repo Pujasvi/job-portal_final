@@ -19,14 +19,14 @@ function SignupForm(props) {
   };
   const submit = (event)=>{
         event.preventDefault()
-       isNotSamePassword = !isEmpty(cPassword) &&  (password != cPassword);
+       isNotSamePassword = !isEmpty(cPassword) &&  (password !== cPassword);
        if(isNotSamePassword)return ; 
       dispatch(signupAction(formData))
       // return formData;
   }
 
 
-  isNotSamePassword = !isEmpty(cPassword) &&  (password != cPassword);
+  isNotSamePassword = !isEmpty(cPassword) &&  (password !== cPassword);
 
   return (
     <form className={classes.form}>

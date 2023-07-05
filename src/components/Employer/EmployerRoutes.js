@@ -2,7 +2,7 @@ import React from 'react'
 import Sidebar from './sideNav/sideNav';
 import { Routes ,Route ,Router} from 'react-router-dom';
 import EmployerForm from './employerForm/EmployerForm';
-import EmployerTable from './employerTable/employerTable';
+import EmployerTable from './data-table/DataTable';
 import Employer from '.';
 const EmployerRoutes = () => {
   return (

@@ -3,6 +3,7 @@ import { loginApi } from "../../utils/networkUtils";
 import { checkIsLoggedIn } from "../../utils/commonUtils";
 import isEmpty from 'lodash/isEmpty';
 
+
 const initialState = {
   isLoggedIn: !isEmpty(checkIsLoggedIn()) ? true : false,
   loginError :'' ,
@@ -11,7 +12,7 @@ const initialState = {
 };
 
 export const loginSlice = createSlice({
-  name: "Login",
+  name: "login",
   initialState,
   reducers: {
     login: (state,action) => {

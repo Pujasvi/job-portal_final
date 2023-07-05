@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import classes from "./index.module.css";
 import { useSelector, useDispatch } from "react-redux";
 import { getEmployerData } from "./employerAction";
-import EmployerTable from "./employerTable/employerTable";
+import DataTable from "./data-table/DataTable";
 
 const Employer = () => {
   const employerSelector = useSelector((state) => state.employer);
@@ -29,7 +29,7 @@ const Employer = () => {
   return (
     <div className={classes.wrapper}>
       {employerData?.length > 0 && (
-        <EmployerTable
+        <DataTable
           data={paginatedData}
           changePage={changePage}
           currPage={currPage}

@@ -28,7 +28,6 @@ function LoginForm() {
     } else {
       return navigate(`/home`);
     }
-    return false;
   };
   return (
     <form

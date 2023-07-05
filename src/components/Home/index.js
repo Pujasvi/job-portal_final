@@ -20,8 +20,7 @@ function Home() {
     <Fragment>
       <div className={classes.header}>
         <button type="button" onClick={logoutLocal}>
-          {" "}
-          Logout{" "}
+          Logout
         </button>
       </div>
       <Sidebar />

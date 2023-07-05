@@ -1,0 +1,35 @@
+html {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+table {
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border: 1px solid gray;
+  table-layout: fixed;
+  width: 100%;
+}
+
+tbody {
+  border-bottom: 1px solid lightgray;
+  padding:10px
+}
+
+th {
+  border-bottom: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  padding: 2px 4px;
+  padding:10px
+}
+td {
+  justify-content: center;
+}
+tfoot {
+  color: gray;
+}
+
+tfoot th {
+  font-weight: normal;
+}

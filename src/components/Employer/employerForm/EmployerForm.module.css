@@ -1,0 +1,21 @@
+.wrapper{
+  margin-left: 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid darkgray;
+  padding: 10px;
+}
+
+.textArea{
+
+}
+.label{
+  margin: 10px;
+  display: inline-block;
+  width: 200px;
+}
+.submit{
+  width:100px !important
+}

@@ -1,6 +1,5 @@
 import { users } from "../dummyData/users";
 import { dummyEmployers } from "../dummyData/employers";
-import { checkIsLoggedIn } from "./commonUtils";
 
 export const loginApi = (obj) => {
   return new Promise((res, rej) => {
