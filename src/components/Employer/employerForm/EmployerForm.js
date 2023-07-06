@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import classes from "./EmployerForm.module.css";
 import { useSelector, useDispatch } from "react-redux";
-import { postJobs } from "../../../Components/Employer/employerAction";
+import { postJobs } from "../../../components/Employer/employerAction";
 import { initialErrors, initialState } from "./EmployerConstants";
 import { isValidEmail, isValidPhoneNumber } from "../../../utils/utils";
 
