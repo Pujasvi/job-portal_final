@@ -6,8 +6,9 @@ import {
   useReactTable,
 } from "@tanstack/react-table";
 
-import  styles  from "../employerTable/employerTable.module.css";
+import styles from "../employerTable/employerTable.module.css";
 import Pagination from "../../../common/pagination/pagination";
+
 
 const columnHelper = createColumnHelper();
 
@@ -65,11 +66,13 @@ const EmployerTable = ({ data, currPage, changePage, pageCount }) => {
     columns,
     getCoreRowModel: getCoreRowModel(),
   });
+
+ 
   return (
     <div>
       <table
         style={{
-          width: table.getTotalSize()+300,
+          width: table.getTotalSize() + 300,
           marginLeft: 100,
         }}
       >
@@ -97,7 +100,7 @@ const EmployerTable = ({ data, currPage, changePage, pageCount }) => {
           })}
         </thead>
         <tbody>
-          {table.getRowModel().rows.map((row) => (
+          {table.getRowModel().rows.map((row, index) => (
             <tr key={row.id}>
               {row.getVisibleCells().map((cell) => (
                 <td
@@ -110,7 +113,14 @@ const EmployerTable = ({ data, currPage, changePage, pageCount }) => {
                   {flexRender(cell.column.columnDef.cell, cell.getContext())}
                 </td>
               ))}
-              <button className={styles.viewApp}>view Applications</button>
+              {/* <button
+                className={styles.viewApp}
+                onClick={() => {
+                  viewAppl(row.id);
+                }}
+              >
+                view Applications
+              </button> */}
             </tr>
           ))}
         </tbody>

@@ -23,11 +23,8 @@ function LoginForm() {
   const submit = async (event) => {
     event.preventDefault();
     await dispatch(loginAction(formData));
-    if (redirect) {
-      return navigate(`/${redirect}`);
-    } else {
       return navigate(`/home`);
-    }
+    
   };
   return (
     <form

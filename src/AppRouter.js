@@ -1,16 +1,15 @@
 import React from "react";
-import { createBrowserRouter, Route, Navigate } from "react-router-dom";
+import { createBrowserRouter, Navigate } from "react-router-dom";
 import Home from "./components/Home";
-import App from "./App";
 import Login from "./components/Login/login";
 import { checkIsLoggedIn } from "./utils/commonUtils";
-import EmployerRoutes from "./components/Employer/EmployerRoutes";
 import Employer from "./components/Employer";
 import EmployerForm from "./components/Employer/employerForm/EmployerForm";
 import Freelancer from "./pages/freelancer";
+import Applications from "./components/Employer/applications/Applications";
+import Profile from "./components/profile/Profile";
 
 const checkAuthenticated = (component, redirectUrl) => {
-  const a = checkIsLoggedIn();
   if (checkIsLoggedIn()) {
     return component;
   }
@@ -22,7 +21,7 @@ const checkAuthenticated = (component, redirectUrl) => {
 export const router = createBrowserRouter([
   {
     path: "/",
-    element: <Navigate to="/home" replace />,
+    element: <Navigate to="/home/" replace />,
   },
 
   {
@@ -31,36 +30,52 @@ export const router = createBrowserRouter([
   },
   {
     path: "/home",
-    // element:checkAuthenticated(<Home/>, 'home'),
     children: [
       {
         path: "/home/view-jobs",
-        element: (
+        element: checkAuthenticated(
           <>
             <Home />
             <Employer />
-          </>
+          </>,
+         "home"
         ),
       },
       {
         path: "/home/post-job",
-        element: (
+        element: checkAuthenticated(
           <>
             <Home />
             <EmployerForm />
           </>
+          ,
+          "home"
         ),
       },
       {
-        path: "/home/",
-        element: <><Home/><Employer /></>
+        path: "/home/applications/:id",
+        element: checkAuthenticated(<Applications />, "home"),
       },
-    ],
-  },
+       {
+        path: "/home/application/:id",
+        element: checkAuthenticated(<Profile/>, "home"),
+      },
+      {
+        path: "/home/",
+        element: checkAuthenticated(
+          <>
+            <Home />
+            <Employer />
+          </>,
+           "home"
+        ),
+      },
+    ]
+  }
   ,
   {
     path: "/user",
-    element: <Freelancer />,
+    element: checkAuthenticated(<Freelancer />,"user"),
   },
 ]);
 

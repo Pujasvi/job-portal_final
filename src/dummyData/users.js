@@ -605,6 +605,12 @@ export const users =
       "password": "123",
       "type": "F",
       "id": 101
+    },
+    {
+      "emailId": "pujasvi1@gmail.com",
+      "password": "1234",
+      "type": "E",
+      "id": 102
     }
   ]
   

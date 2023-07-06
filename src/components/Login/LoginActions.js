@@ -14,6 +14,7 @@ export const loginAction = createAsyncThunk(
       if (res.status == 200) {
         dispatch(login(res.data[0]));
         setDataInLocalStorage("user", res.data[0].emailId);
+        setDataInLocalStorage('type',res.data[0].type)
         return;
       }
       dispatch(loginError(res));

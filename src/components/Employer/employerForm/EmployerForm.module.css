@@ -19,3 +19,7 @@
 .submit{
   width:100px !important
 }
+.error{
+  font-size: 11px;
+  color:red
+}

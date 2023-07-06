@@ -8,6 +8,9 @@ import { useNavigate, useParams } from "react-router-dom";
 
 function Login() {
   const [type, setType] = useState("Login");
+  const loggedin = useSelector((state) => state.login.isLoggedIn);
+  const navigate = useNavigate();
+  const test= useParams();
 
   const toggle = (e) => {
     if (e == "Login") {
@@ -16,6 +19,10 @@ function Login() {
       setType("Signup");
     }
   };
+  if(loggedin){
+    return navigate(`/home/`);
+    
+  }
   const sliderCss =
     type == "Signup"
       ? `${styles.slider} ${styles.moveslider}`
