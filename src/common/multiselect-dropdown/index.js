@@ -25,7 +25,7 @@ const MultiSelectDropdown = ({ options, onSelect }) => {
   return (
     <div className={styles.multiSelectDropdown} onClick={handleDropdownClick}>
       <div className={styles.dropdownToggle}>
-        {selectedOptions.length > 0
+        {selectedOptions?.length > 0
           ? selectedOptions.map((option) => option.label).join(", ")
           : "Select options"}
       </div>

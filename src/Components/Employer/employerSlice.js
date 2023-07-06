@@ -25,7 +25,7 @@ export const employerSlice = createSlice({
       state.isLoading=true;
     },
     postJob : (state,action)=>{
-      state.employerData = state.employerData.concat({...action.payload.employerData ,id:state.employerData.length});
+      state.employerData = state.employerData.concat({...action.payload.employerData ,id:state?.employerData?.length});
       state.isLoading = false;
       state.employerError = '';
       console.log("pujasvi empluterdata",state.employerData)

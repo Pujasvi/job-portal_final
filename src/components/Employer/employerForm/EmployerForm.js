@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import classes from "./EmployerForm.module.css";
 import { useSelector, useDispatch } from "react-redux";
-import { postJobs } from "../employerAction";
+import { postJobs } from "../../../Components/Employer/employerAction";
 import { initialErrors, initialState } from "./EmployerConstants";
 import { isValidEmail, isValidPhoneNumber } from "../../../utils/utils";
 
@@ -36,7 +36,7 @@ function EmployerForm() {
 
 
     setFormErrors(errors);
-    if (Object.keys(errors).length === 0) {
+    if (Object.keys(errors)?.length === 0) {
       dispatch(postJobs(formData));
       setFormData(initialState);
     }
