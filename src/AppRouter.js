@@ -8,6 +8,7 @@ import EmployerForm from "./components/Employer/employerForm/EmployerForm";
 import Freelancer from "./pages/freelancer";
 import Applications from "./components/Employer/applications/Applications";
 import Profile from "./components/profile/Profile";
+import JobListing from "./components/jobListing/JobListing";
 
 const checkAuthenticated = (component, redirectUrl) => {
   if (checkIsLoggedIn()) {
@@ -82,6 +83,10 @@ const uRoutes = [
   {
     path: "/user",
     element: checkAuthenticated(<Freelancer />, "user"),
+  },
+  {
+    path: "/job-listing",
+    element: checkAuthenticated(<JobListing/>, "user"),
   },
 ];
 export const router = createBrowserRouter([
