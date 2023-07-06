@@ -78,7 +78,7 @@ const eRoutes = [
 const uRoutes = [
   {
     path: "/",
-    element: <Navigate to="/user" replace />,
+    element: <Navigate to="/job-listing" replace />,
   },
   {
     path: "/user",

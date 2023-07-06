@@ -2,6 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { dummyEmployers } from '../../dummyData/employers';
 import classes from './JobListing.module.css'
 import Pagination from 'react-js-pagination';
+import { useDispatch } from "react-redux";
+import { logout } from "../Login/loginSlice";
+import { setDataInLocalStorage } from "../../utils/commonUtils";
+import { useNavigate } from "react-router-dom";
 // Mock data for job listings
 const mockJobListings = dummyEmployers;
 
@@ -53,8 +57,23 @@ function JobListing() {
 
     console.log(`Quick apply to job with ID: ${jobId}`);
   };
+  const dispatch = useDispatch();
+  const navigate = useNavigate();
+
+  const logoutLocal = () => {
+    setDataInLocalStorage("user", "");
+    dispatch(logout());
+    navigate("/login");
+    return;
+  };
 
   return (
+    <>
+          <div className={classes.header}>
+        <button type="button" onClick={logoutLocal}>
+          Logout
+        </button>
+      </div>
     <div className={classes.joblistingPage}>
       <h1>Job Listings</h1>
 
@@ -94,6 +113,7 @@ function JobListing() {
         />
       </div>
     </div>
+    </>
   );
 }
 

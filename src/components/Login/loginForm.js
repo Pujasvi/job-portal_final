@@ -24,7 +24,7 @@ function LoginForm() {
   const submit = async (event) => {
     event.preventDefault();
     await dispatch(loginAction(formData));
-    const url = getType('type') == 'E' ? `/home`: '/user'
+    const url = getType('type') == 'E' ? `/home`: '/job-listing'
       return navigate(url);
     
   };

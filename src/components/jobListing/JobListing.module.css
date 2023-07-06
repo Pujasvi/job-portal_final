@@ -73,3 +73,10 @@ h1 {
   background-color: #007bff;
   color: #fff;
 }
+.header {
+  width:calc(100%-10);
+  background-color: #ECEEF0;
+  display: flex;
+  justify-content: end;
+  padding: 10px;
+}
