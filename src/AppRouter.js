@@ -91,9 +91,9 @@ const uRoutes = [
 ];
 export const router = createBrowserRouter([
   ...commonRoutes,
-  ...(type == "F" ? uRoutes : eRoutes ),
+  ...uRoutes,
+  ...eRoutes
 ]);
-console.log("routes",router)
 const AppRouter = () => {
   return null;
 };

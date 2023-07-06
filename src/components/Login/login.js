@@ -11,8 +11,12 @@ function Login() {
   const [type, setType] = useState("Login");
   const loggedin = useSelector((state) => state.login.isLoggedIn);
   const navigate = useNavigate();
-  const test= useParams();
-
+  useEffect(() => {
+    if (loggedin) {
+      const url = getType("type") == "E" ? `/home` : "/user";
+       navigate(url);
+    }
+  }, [loggedin]);
   const toggle = (e) => {
     if (e == "Login") {
       setType("Login");
@@ -20,12 +24,7 @@ function Login() {
       setType("Signup");
     }
   };
-  if(loggedin){
-    const url = getType('type') == 'E' ? `/home`: '/user'
-      return navigate(url);
 
-    
-  }
   const sliderCss =
     type == "Signup"
       ? `${styles.slider} ${styles.moveslider}`
