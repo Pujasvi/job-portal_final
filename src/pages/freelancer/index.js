@@ -1,6 +1,10 @@
 import Dropdown from "../../common/dropdown";
 import MultiSelectDropdown from "../../common/multiselect-dropdown";
+import { setDataInLocalStorage } from "../../utils/commonUtils";
 import styles from "./index.module.css";
+import { useNavigate } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { logout } from "../../components/Login/loginSlice";
 
 const options = [
   { label: "C++", value: "c++" },
@@ -9,7 +13,13 @@ const options = [
   { label: "GoLang", value: "go" },
 ];
 const Freelancer = () => {
-  const logoutLocal = () => {};
+  const dispatch = useDispatch();
+  const navigate = useNavigate();
+  const logoutLocal = () => {
+    setDataInLocalStorage("user", "");
+    dispatch(logout());
+    navigate("/login");
+  };
   return (
     <>
       <div className={styles.header}>

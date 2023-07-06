@@ -5,6 +5,7 @@ import styles from "./login.module.css";
 import LoginForm from "./loginForm";
 import SignupForm from "./signupForm";
 import { useNavigate, useParams } from "react-router-dom";
+import { getType } from "../../utils/commonUtils";
 
 function Login() {
   const [type, setType] = useState("Login");
@@ -20,7 +21,9 @@ function Login() {
     }
   };
   if(loggedin){
-    return navigate(`/home/`);
+    const url = getType('type') == 'E' ? `/home`: '/user'
+      return navigate(url);
+
     
   }
   const sliderCss =

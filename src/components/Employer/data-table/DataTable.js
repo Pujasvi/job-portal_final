@@ -53,7 +53,7 @@ const DataTable = (props) => {
         </thead>
         <tbody>
           {table.getRowModel().rows.map((row) => (
-            <tr key={row.id} onClick={()=>clickRow(row.id)}>
+            <tr key={row.id} onClick={()=>{clickRow && clickRow(row.id)}}>
               {row.getVisibleCells().map((cell) => (
                 <td
                   key={cell.id}

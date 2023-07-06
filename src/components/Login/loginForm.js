@@ -4,6 +4,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { login } from "./loginSlice";
 import { loginAction } from "./LoginActions";
 import { useNavigate, useParams } from "react-router-dom";
+import { getType } from "../../utils/commonUtils";
 
 function LoginForm() {
   const [formData, setFormData] = useState({ emailId: "", password: "" });
@@ -23,7 +24,8 @@ function LoginForm() {
   const submit = async (event) => {
     event.preventDefault();
     await dispatch(loginAction(formData));
-      return navigate(`/home`);
+    const url = getType('type') == 'E' ? `/home`: '/user'
+      return navigate(url);
     
   };
   return (

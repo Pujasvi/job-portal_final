@@ -2,7 +2,7 @@ import React from "react";
 import { createBrowserRouter, Navigate } from "react-router-dom";
 import Home from "./components/Home";
 import Login from "./components/Login/login";
-import { checkIsLoggedIn } from "./utils/commonUtils";
+import { checkIsLoggedIn, getType } from "./utils/commonUtils";
 import Employer from "./components/Employer";
 import EmployerForm from "./components/Employer/employerForm/EmployerForm";
 import Freelancer from "./pages/freelancer";
@@ -17,16 +17,18 @@ const checkAuthenticated = (component, redirectUrl) => {
     <Navigate to={`/login?redirect=${redirectUrl}`} state={{ from: "" }} />
   );
 };
-
-export const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Navigate to="/home/" replace />,
-  },
+const type = getType('type');
+const commonRoutes = [
 
   {
     path: "/login",
     element: <Login />,
+  },
+];
+const eRoutes = [
+  {
+    path: "/",
+    element: <Navigate to="/home/" replace />,
   },
   {
     path: "/home",
@@ -38,7 +40,7 @@ export const router = createBrowserRouter([
             <Home />
             <Employer />
           </>,
-         "home"
+          "home"
         ),
       },
       {
@@ -47,8 +49,7 @@ export const router = createBrowserRouter([
           <>
             <Home />
             <EmployerForm />
-          </>
-          ,
+          </>,
           "home"
         ),
       },
@@ -56,9 +57,9 @@ export const router = createBrowserRouter([
         path: "/home/applications/:id",
         element: checkAuthenticated(<Applications />, "home"),
       },
-       {
+      {
         path: "/home/application/:id",
-        element: checkAuthenticated(<Profile/>, "home"),
+        element: checkAuthenticated(<Profile />, "home"),
       },
       {
         path: "/home/",
@@ -67,18 +68,27 @@ export const router = createBrowserRouter([
             <Home />
             <Employer />
           </>,
-           "home"
+          "home"
         ),
       },
-    ]
-  }
-  ,
+    ],
+  },
+];
+const uRoutes = [
+  {
+    path: "/",
+    element: <Navigate to="/user" replace />,
+  },
   {
     path: "/user",
-    element: checkAuthenticated(<Freelancer />,"user"),
+    element: checkAuthenticated(<Freelancer />, "user"),
   },
+];
+export const router = createBrowserRouter([
+  ...commonRoutes,
+  ...(type == "F" ? uRoutes : eRoutes ),
 ]);
-
+console.log("routes",router)
 const AppRouter = () => {
   return null;
 };
